@@ -48,7 +48,7 @@ f = open(file_str,"w+")
 #'Province/State, Country, prediction target date, N, varN, R, varR, D, varD, M, varM
 #NaN, Switzerland, 14/03/2020, 1211, 1100-1400, 20, 10-60, 3, 3-5, 0.05, 0.01-0.1
 
-f.write("Province/State, Country, prediction target date, N, varN, R, varR, D, varD, M, varM \n")
+f.write("Province/State,Country,Prediction Target Date,N,varN,R,varR,D,varD,M,varM \n")
 
 cat2_idx = data['Province/State'].isnull()
 for tmp_location in set(data['Country/Region'][cat2_idx]):
