@@ -18,25 +18,25 @@ def pred_function(series):
     pred = delta + series[-1]
     return pred
 
-def moratlity_estimate(data):
+def mortality_estimate(data):
     # loop over countires and estimate ratio of predicted deaths and predicted confirmed cases
     
     cat2_idx = data['Province/State'].isnull()
-    moratlity_list=[]
+    mortality_list=[]
     for tmp_location in set(data['Country/Region'][cat2_idx]):
         idx_location = data['Country/Region']==tmp_location
         next_confirmed = pred_function(data['Confirmed'][idx_location].to_numpy())
         next_deaths = pred_function(data['Deaths'][idx_location].to_numpy())
         next_mortality = next_deaths / next_confirmed 
-        moratlity_list.append(next_mortality)
+        mortality_list.append(next_mortality)
     
-    next_mortality_avg = np.average(np.asarray(moratlity_list))
+    next_mortality_avg = np.average(np.asarray(mortality_list))
     
     return next_mortality_avg
 
 data = pd.read_csv('time-series-19-covid-combined.csv') 
 
-next_mortality_avg = moratlity_estimate(data)
+next_mortality_avg = mortality_estimate(data)
 print(next_mortality_avg)
 
 today = date.today()
