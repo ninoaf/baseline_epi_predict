@@ -4,7 +4,7 @@ import numpy as np
 import datetime
 from datetime import date
 
-def pred_function(series):
+def pred_function(series, k=2):
     # Newton-Leibniz baseline
     # In 1665, following an outbreak of the bubonic plague in England, 
     # Cambridge University closed its doors, forcing Newton to return home and 
@@ -15,23 +15,35 @@ def pred_function(series):
     # f(x+1)= delta(x)+f(x)
     
     delta = series[-1] - series[-2]
-    pred = delta + series[-1]
+    #k-day ahead prediction
+    pred = series[-1] + k*delta
     return pred
 
 def mortality_estimate(data):
     # loop over countires and estimate ratio of predicted deaths and predicted confirmed cases
     
     cat2_idx = data['Province/State'].isnull()
-    mortality_list=[]
+    moratlity_list=[]
     for tmp_location in set(data['Country/Region'][cat2_idx]):
         idx_location = data['Country/Region']==tmp_location
         next_confirmed = pred_function(data['Confirmed'][idx_location].to_numpy())
         next_deaths = pred_function(data['Deaths'][idx_location].to_numpy())
-        next_mortality = next_deaths / next_confirmed 
-        mortality_list.append(next_mortality)
+        if next_confirmed > 0:
+            next_mortality = next_deaths / next_confirmed 
+            moratlity_list.append(next_mortality)
+            
+    cat1_idx = data['Province/State'].notnull()
+    for tmp_location in set(data['Province/State'][cat1_idx]):
+
+        idx_location = data['Province/State']==tmp_location
+        next_confirmed = pred_function(data['Confirmed'][idx_location].to_numpy())
+        next_recovered = pred_function(data['Recovered'][idx_location].to_numpy())
+        next_deaths = pred_function(data['Deaths'][idx_location].to_numpy())
+        if next_confirmed > 0:
+            next_mortality = next_deaths / next_confirmed 
+            moratlity_list.append(next_mortality)
     
-    next_mortality_avg = np.average(np.asarray(mortality_list))
-    
+    next_mortality_avg = np.average(np.asarray(moratlity_list))
     return next_mortality_avg
 
 data = pd.read_csv('time-series-19-covid-combined.csv') 
@@ -39,11 +51,12 @@ data = pd.read_csv('time-series-19-covid-combined.csv')
 next_mortality_avg = mortality_estimate(data)
 print(next_mortality_avg)
 
+num_days = 2
 today = date.today()
-file_str = "2day_prediction_" + str(today) + ".csv"
+file_str = str(num_days)+"day_prediction_" + str(today) + ".csv"
 print(file_str)
 
-next_pred_date = today+datetime.timedelta(days=2)
+next_pred_date = today+datetime.timedelta(days=num_days)
 f = open(file_str,"w+")
 #'Province/State, Country, prediction target date, N, varN, R, varR, D, varD, M, varM
 #NaN, Switzerland, 14/03/2020, 1211, 1100-1400, 20, 10-60, 3, 3-5, 0.05, 0.01-0.1
