@@ -59,7 +59,7 @@ print(file_str)
 next_pred_date = today+datetime.timedelta(days=num_days)
 f = open(file_str,"w+")
 #'Province/State, Country, prediction target date, N, varN, R, varR, D, varD, M, varM
-#NaN, Switzerland, 14/03/2020, 1211, 1100-1400, 20, 10-60, 3, 3-5, 0.05, 0.01-0.1
+#, Switzerland, 14/03/2020, 1211, 1100-1400, 20, 10-60, 3, 3-5, 0.05, 0.01-0.1
 
 f.write("Province/State,Country,Prediction Target Date,N,varN,R,varR,D,varD,M,varM \n")
 
@@ -83,7 +83,7 @@ for tmp_location in set(data['Country/Region'][cat2_idx]):
     d_str = str(next_deaths) + ",,"
     m_str = str(next_mortality_avg)+ ",\n"
     
-    f.write(loc1_str+loc2_str+next_pred_date_str+n_str+r_str+d_str+m_str)
+    f.write(","+loc2_str+next_pred_date_str+n_str+r_str+d_str+m_str)
 
 cat1_idx = data['Province/State'].notnull()
 for tmp_location in set(data['Province/State'][cat1_idx]):
