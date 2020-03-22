@@ -3,9 +3,14 @@
 https://www.epidemicdatathon.com
 ***********************************
 
-# Run run_leibniz_baseline.sh for Newton-Leibniz baseline
 
-# Run wget_logistic_baseline.sh for Logistic baseline
+1. Run Newton-Leibniz baseline
+
+./run_leibniz_baseline.sh 
+
+2. Run Logistic growth baseline
+
+./wget_logistic_baseline.sh
  
  
  
