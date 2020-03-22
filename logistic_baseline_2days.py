@@ -18,9 +18,11 @@ def pred_logistic(x_train, y_train, x_pred, L):
 
     x_pred = np.copy(x_pred)/max(x_train)
 
+    print(x_train)
+    print(y_train)
+    
     x_train = np.copy(x_train)/max(x_train)    
     y_train = np.copy(y_train)/L
-    
 
     popt, pcov = opt.curve_fit(logistic, x_train, y_train)
     
@@ -30,7 +32,7 @@ def pred_logistic(x_train, y_train, x_pred, L):
     y_pred = logistic(x_pred, popt[0], popt[1])
     y_pred_upper = logistic(x_pred, popt[0]-1.96*sigma_ab[0], popt[1]-1.96*sigma_ab[1])
     y_pred_lower = logistic(x_pred, popt[0]+1.96*sigma_ab[0], popt[1]+1.96*sigma_ab[1])
-    
+        
     if y_pred_lower[-1] <= y_train[-1]:
         y_pred_lower[-1] = y_train[-1]
         
@@ -60,7 +62,7 @@ prediction_delta = 2
 today = date.today()
 next_pred_date = today+datetime.timedelta(days=prediction_delta)
 
-file_str = "2day_prediction_" + str(today) + ".csv"
+file_str = "logistic_baseline_predictions/2day_prediction_" + str(today) + ".csv"
 print(file_str)
 
 f = open(file_str,"w+")
@@ -71,6 +73,7 @@ f.write("Province/State,Country,Prediction Target Date,N,varN,R,varR,D,varD,M,va
     
     
 for i in range(len(countries)):
+
     confirmed_region = confirmed.loc[confirmed['Country/Region'] == countries[i]]
     deaths_region = deaths.loc[deaths['Country/Region'] == countries[i]]
     recovered_region = recovered.loc[recovered['Country/Region'] == countries[i]]

@@ -60,7 +60,7 @@ prediction_delta = 30
 today = date.today()
 next_pred_date = today+datetime.timedelta(days=prediction_delta)
 
-file_str = "30day_prediction_" + str(today) + ".csv"
+file_str = "logistic_baseline_predictions/30day_prediction_" + str(today) + ".csv"
 print(file_str)
 
 f = open(file_str,"w+")

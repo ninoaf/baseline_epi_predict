@@ -21,7 +21,6 @@ def pred_logistic(x_train, y_train, x_pred, L):
     x_train = np.copy(x_train)/max(x_train)    
     y_train = np.copy(y_train)/L
     
-
     popt, pcov = opt.curve_fit(logistic, x_train, y_train)
     
     # simple error estimator without intrinsic errors in data points
@@ -53,20 +52,20 @@ date_generated = [start + datetime.timedelta(days=x) for x in range(0, (end-star
 countries = ['Switzerland', 'Italy', 'Germany', 'US', 'France', 'Spain']
 population = [8.57e6, 60.5e6, 82.8e6, 327.2e6, 66.99e6, 46.66e6]
 
-herd_imm_ratio = 0.66
+herd_imm_ratio = 0.2
 # time delta for prediction in days
 prediction_delta = 7
 
 today = date.today()
 next_pred_date = today+datetime.timedelta(days=prediction_delta)
 
-file_str = "logistic_baseline_predictions/7day_prediction_" + str(today) + ".csv"
+file_str = "logistic_baseline_visualization/logistic_baseline_visualization_" + str(today) + ".csv"
 print(file_str)
 
 f = open(file_str,"w+")
-    #'Province/State, Country, prediction target date, N, varN, R, varR, D, varD, M, varM
+    #'Province/State, Country, prediction target date, N, varN, C, varC, R, varR, D, varD, M, varM
     #NaN, Switzerland, 14/03/2020, 1211, 1100-1400, 20, 10-60, 3, 3-5, 0.05, 0.01-0.1
-f.write("Province/State,Country,Prediction Target Date,N,varN,C,varC,R,varR,D,varD,M,varM \n")
+f.write("Province/State,Country,Date,N,varN,C,varC,R,varR,D,varD,M,varM \n")
 
 for i in range(len(countries)):
     confirmed_region = confirmed.loc[confirmed['Country/Region'] == countries[i]]
@@ -113,25 +112,32 @@ for i in range(len(countries)):
 #    plt.show()
     
     next_mortality = deaths_pred/confirmed_pred
-    next_mortality_lower = deaths_pred_lower[-1]/confirmed_pred_upper[-1]
-    next_mortality_upper = deaths_pred_upper[-1]/confirmed_pred_lower[-1]
+    next_mortality_lower = deaths_pred_lower/confirmed_pred_upper
+    next_mortality_upper = deaths_pred_upper/confirmed_pred_lower
+        
+    for j in range(len(next_mortality)):
+        
+        # fraction of confirmed cases that require hospitalization
+        fserious = 0.05
+        if j > 15:
+            serious = (confirmed_pred[j]-confirmed_pred[j-15])*fserious
+            serious_lower = (confirmed_pred_lower[j]-confirmed_pred[j-15])*fserious
+            serious_upper = (confirmed_pred_upper[j]-confirmed_pred[j-15])*fserious
+        else:
+            serious = (confirmed_pred[j])*fserious
+            serious_lower = (confirmed_pred_lower[j])*fserious
+            serious_upper = (confirmed_pred_upper[j])*fserious
     
-    # fraction of confirmed cases that require hospitalization
-    fserious = 0.05
-    serious = (confirmed_pred[-1]-confirmed_pred[-15])*fserious
-    serious_lower = (confirmed_pred_lower[-1]-confirmed_pred[-15])*fserious
-    serious_upper = (confirmed_pred_upper[-1]-confirmed_pred[-15])*fserious
-
-    next_pred_date_str = str(next_pred_date)+","
-    loc1_str = ","
-    loc2_str = str(countries[i]).replace(',', ' ')+","
-    n_str = str(confirmed_pred[-1])+","+str(confirmed_pred_lower[-1])+"-"+str(confirmed_pred_upper[-1])+","
-    c_str = str(serious)+","+str(serious_lower)+"-"+str(serious_upper)+","
-    r_str = str(deaths_pred[-1])+","+str(deaths_pred_lower[-1])+"-"+str(deaths_pred_upper[-1])+","
-    d_str = str(recovered_pred[-1])+","+str(recovered_pred_lower[-1])+"-"+str(recovered_pred_upper[-1])+","
-    m_str = str(next_mortality[-1])+","+str(next_mortality_lower)+"-"+str(next_mortality_upper)+ "\n"
-    
-    f.write(loc1_str+loc2_str+next_pred_date_str+n_str+c_str+r_str+d_str+m_str)
+        next_pred_date_str = str(dates_prediction[j].strftime('%Y-%m-%d'))+","
+        loc1_str = ","
+        loc2_str = str(countries[i]).replace(',', ' ')+","
+        n_str = str(confirmed_pred[j])+","+str(confirmed_pred_lower[j])+"-"+str(confirmed_pred_upper[j])+","
+        c_str = str(serious)+","+str(serious_lower)+"-"+str(serious_upper)+","
+        r_str = str(deaths_pred[j])+","+str(deaths_pred_lower[j])+"-"+str(deaths_pred_upper[j])+","
+        d_str = str(recovered_pred[j])+","+str(recovered_pred_lower[j])+"-"+str(recovered_pred_upper[j])+","
+        m_str = str(next_mortality[j])+","+str(next_mortality_lower[j])+"-"+str(next_mortality_upper[j])+ "\n"
+        
+        f.write(loc1_str+loc2_str+next_pred_date_str+n_str+c_str+r_str+d_str+m_str)
 
 print("baseline predictions writtern to:"+file_str)    
 f.close()
