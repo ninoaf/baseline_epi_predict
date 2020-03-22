@@ -1,9 +1,18 @@
-# baseline_epi_predict
+# Baseline models
+************************************
+https://www.epidemicdatathon.com
+***********************************
 
-Run script 
+# Run run_leibniz_baseline.sh for Newton-Leibniz baseline
 
+# Run wget_logistic_baseline.sh for Logistic baseline
+ 
+ 
+ 
+ ****Goal of the datathon ****
+After the initial spread of SARS-CoV-2 in Hubei (China), the World Health Organization recently declared the corona virus disease COVID-19 a pandemic. The goal of this project is to use publicly available data to accelerate scientific innovation in modeling and forecasting the evolution of COVID-19 cases in different countries as well as to evaluate possible response measures. Quantifying the forecast accuracy and uncertainty in real time is used as a benchmark for epidemic forecasting models and hopefully can provide additional insights into the COVID-19 outbreak dynamics. 
 
-python leibniz_baseline.py
-
-
-on the latest data in the same folder. 
+****Scientific motivation******
+Are mechanistic epidemic models able to make good predictions or do purely data-driven approaches outperform standard epidemiological frameworks? Better performances of data-driven models that incorporate various datasets may help to determine missing features in standard epidemic models. Large deviations in the predictive accuracy of standard epidemic models can indicate wrongly estimated disease parameters and effects of containment strategies.
+ 
+We encourage participants to get inspired by the state-of-the-art research in epidemiology, network science, statistics, data science, and other fields (see our reference section) and make scientific contributions. Please also review our disclaimer and ethics section.
