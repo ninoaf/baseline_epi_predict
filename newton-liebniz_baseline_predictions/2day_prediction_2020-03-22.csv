@@ -1,481 +1,481 @@
 Province/State,Country,Prediction Target Date,N,varN,R,varR,D,varD,M,varM 
-nan,Portugal,2020-03-24,1800,nan,5,nan,24,nan,0.017817676452455466,nan
-nan,San Marino,2020-03-24,144,nan,4,nan,32,nan,0.017817676452455466,nan
-nan,Trinidad and Tobago,2020-03-24,129,nan,3,nan,0,nan,0.017817676452455466,nan
-nan,Haiti,2020-03-24,2,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Jamaica,2020-03-24,16,nan,2,nan,1,nan,0.017817676452455466,nan
-nan,Monaco,2020-03-24,11,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Bolivia,2020-03-24,27,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Madagascar,2020-03-24,3,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Qatar,2020-03-24,503,nan,61,nan,0,nan,0.017817676452455466,nan
-nan,Cyprus,2020-03-24,118,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Holy See,2020-03-24,1,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Saint Vincent and the Grenadines,2020-03-24,1,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Kuwait,2020-03-24,210,nan,45,nan,0,nan,0.017817676452455466,nan
-nan,Guinea,2020-03-24,4,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Mongolia,2020-03-24,18,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Cabo Verde,2020-03-24,7,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Lithuania,2020-03-24,151,nan,1,nan,3,nan,0.017817676452455466,nan
-nan,Vietnam,2020-03-24,100,nan,19,nan,0,nan,0.017817676452455466,nan
-nan,Belarus,2020-03-24,90,nan,35,nan,0,nan,0.017817676452455466,nan
-nan,Tunisia,2020-03-24,72,nan,0,nan,1,nan,0.017817676452455466,nan
-nan,Kyrgyzstan,2020-03-24,30,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Guyana,2020-03-24,7,nan,0,nan,1,nan,0.017817676452455466,nan
-nan,Afghanistan,2020-03-24,24,nan,1,nan,0,nan,0.017817676452455466,nan
-nan,Mexico,2020-03-24,281,nan,4,nan,4,nan,0.017817676452455466,nan
-nan,Slovenia,2020-03-24,467,nan,0,nan,1,nan,0.017817676452455466,nan
-nan,Luxembourg,2020-03-24,1042,nan,0,nan,16,nan,0.017817676452455466,nan
-nan,Bosnia and Herzegovina,2020-03-24,101,nan,2,nan,3,nan,0.017817676452455466,nan
-nan,Serbia,2020-03-24,243,nan,1,nan,1,nan,0.017817676452455466,nan
-nan,Tanzania,2020-03-24,6,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Zambia,2020-03-24,2,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Antigua and Barbuda,2020-03-24,1,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Ghana,2020-03-24,25,nan,0,nan,3,nan,0.017817676452455466,nan
-nan,India,2020-03-24,502,nan,29,nan,2,nan,0.017817676452455466,nan
-nan,Ireland,2020-03-24,989,nan,5,nan,3,nan,0.017817676452455466,nan
-nan,Latvia,2020-03-24,150,nan,1,nan,0,nan,0.017817676452455466,nan
-nan,Paraguay,2020-03-24,28,nan,0,nan,3,nan,0.017817676452455466,nan
-nan,Fiji,2020-03-24,1,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Israel,2020-03-24,1239,nan,80,nan,3,nan,0.017817676452455466,nan
-nan,Singapore,2020-03-24,526,nan,172,nan,6,nan,0.017817676452455466,nan
-nan,Kenya,2020-03-24,7,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Iran,2020-03-24,22542,nan,9415,nan,1802,nan,0.017817676452455466,nan
-nan,Gabon,2020-03-24,6,nan,0,nan,1,nan,0.017817676452455466,nan
-nan,Rwanda,2020-03-24,17,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Cape Verde,2020-03-24,3,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Indonesia,2020-03-24,612,nan,15,nan,50,nan,0.017817676452455466,nan
-nan,Suriname,2020-03-24,4,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Norway,2020-03-24,2526,nan,1,nan,7,nan,0.017817676452455466,nan
-nan,Japan,2020-03-24,1095,nan,314,nan,39,nan,0.017817676452455466,nan
-nan,El Salvador,2020-03-24,7,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Papua New Guinea,2020-03-24,1,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Cambodia,2020-03-24,57,nan,1,nan,0,nan,0.017817676452455466,nan
-nan,Dominican Republic,2020-03-24,192,nan,0,nan,2,nan,0.017817676452455466,nan
-nan,Switzerland,2020-03-24,9137,nan,15,nan,117,nan,0.017817676452455466,nan
-nan,Honduras,2020-03-24,24,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Zimbabwe,2020-03-24,7,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Croatia,2020-03-24,362,nan,5,nan,1,nan,0.017817676452455466,nan
-nan,Costa Rica,2020-03-24,173,nan,6,nan,4,nan,0.017817676452455466,nan
-nan,Congo (Kinshasa),2020-03-24,33,nan,0,nan,3,nan,0.017817676452455466,nan
-nan,Chile,2020-03-24,743,nan,6,nan,0,nan,0.017817676452455466,nan
-nan,Russia,2020-03-24,412,nan,18,nan,1,nan,0.017817676452455466,nan
-nan,Argentina,2020-03-24,218,nan,3,nan,6,nan,0.017817676452455466,nan
-nan,Barbados,2020-03-24,8,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Montenegro,2020-03-24,14,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Brunei,2020-03-24,93,nan,4,nan,0,nan,0.017817676452455466,nan
-nan,Saint Lucia,2020-03-24,2,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Panama,2020-03-24,326,nan,0,nan,1,nan,0.017817676452455466,nan
-nan,Austria,2020-03-24,3666,nan,9,nan,12,nan,0.017817676452455466,nan
-nan,Pakistan,2020-03-24,1188,nan,13,nan,3,nan,0.017817676452455466,nan
-nan,Togo,2020-03-24,30,nan,1,nan,0,nan,0.017817676452455466,nan
-nan,Greece,2020-03-24,600,nan,19,nan,27,nan,0.017817676452455466,nan
-nan,Angola,2020-03-24,4,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Guatemala,2020-03-24,27,nan,0,nan,1,nan,0.017817676452455466,nan
-nan,South Africa,2020-03-24,316,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Albania,2020-03-24,88,nan,6,nan,2,nan,0.017817676452455466,nan
-nan,Congo (Brazzaville),2020-03-24,3,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Cuba,2020-03-24,31,nan,0,nan,1,nan,0.017817676452455466,nan
-nan,Maldives,2020-03-24,13,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Venezuela,2020-03-24,126,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Central African Republic,2020-03-24,3,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Djibouti,2020-03-24,1,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Mauritius,2020-03-24,18,nan,0,nan,3,nan,0.017817676452455466,nan
-nan,Czechia,2020-03-24,1319,nan,10,nan,0,nan,0.017817676452455466,nan
-nan,Gambia  The,2020-03-24,1,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Niger,2020-03-24,1,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Nicaragua,2020-03-24,4,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Uzbekistan,2020-03-24,63,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Belgium,2020-03-24,3931,nan,787,nan,127,nan,0.017817676452455466,nan
-nan,Brazil,2020-03-24,1477,nan,2,nan,23,nan,0.017817676452455466,nan
-nan,Malta,2020-03-24,91,nan,2,nan,0,nan,0.017817676452455466,nan
-nan,Bulgaria,2020-03-24,235,nan,9,nan,3,nan,0.017817676452455466,nan
-nan,Malaysia,2020-03-24,1489,nan,168,nan,6,nan,0.017817676452455466,nan
-nan,Nepal,2020-03-24,1,nan,1,nan,0,nan,0.017817676452455466,nan
-nan,Azerbaijan,2020-03-24,71,nan,21,nan,1,nan,0.017817676452455466,nan
-nan,Eritrea,2020-03-24,3,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Bahrain,2020-03-24,345,nan,175,nan,1,nan,0.017817676452455466,nan
-nan,Bahamas  The,2020-03-24,6,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Thailand,2020-03-24,589,nan,42,nan,1,nan,0.017817676452455466,nan
-nan,Hungary,2020-03-24,139,nan,17,nan,6,nan,0.017817676452455466,nan
-nan,Mauritania,2020-03-24,2,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Iraq,2020-03-24,226,nan,55,nan,17,nan,0.017817676452455466,nan
-nan,Sweden,2020-03-24,2011,nan,16,nan,28,nan,0.017817676452455466,nan
-nan,Cote d'Ivoire,2020-03-24,24,nan,1,nan,0,nan,0.017817676452455466,nan
-nan,Ukraine,2020-03-24,83,nan,3,nan,3,nan,0.017817676452455466,nan
-nan,Uruguay,2020-03-24,142,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Namibia,2020-03-24,3,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Kosovo,2020-03-24,2,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Algeria,2020-03-24,237,nan,32,nan,23,nan,0.017817676452455466,nan
-nan,Turkey,2020-03-24,1292,nan,0,nan,19,nan,0.017817676452455466,nan
-nan,Eswatini,2020-03-24,1,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Ecuador,2020-03-24,784,nan,9,nan,11,nan,0.017817676452455466,nan
-nan,Oman,2020-03-24,60,nan,12,nan,0,nan,0.017817676452455466,nan
-nan,United Arab Emirates,2020-03-24,179,nan,52,nan,2,nan,0.017817676452455466,nan
-nan,Saudi Arabia,2020-03-24,488,nan,32,nan,0,nan,0.017817676452455466,nan
-nan,Equatorial Guinea,2020-03-24,6,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Finland,2020-03-24,669,nan,10,nan,3,nan,0.017817676452455466,nan
-nan,Italy,2020-03-24,66692,nan,9336,nan,6411,nan,0.017817676452455466,nan
-nan,Kazakhstan,2020-03-24,61,nan,0,nan,-6,nan,0.017817676452455466,nan
-nan,Benin,2020-03-24,2,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Estonia,2020-03-24,352,nan,1,nan,0,nan,0.017817676452455466,nan
-nan,East Timor,2020-03-24,3,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Jordan,2020-03-24,85,nan,1,nan,0,nan,0.017817676452455466,nan
-nan,Peru,2020-03-24,486,nan,1,nan,9,nan,0.017817676452455466,nan
-nan,Moldova,2020-03-24,108,nan,1,nan,1,nan,0.017817676452455466,nan
-nan,Lebanon,2020-03-24,235,nan,4,nan,4,nan,0.017817676452455466,nan
-nan,Georgia,2020-03-24,61,nan,1,nan,0,nan,0.017817676452455466,nan
-nan,Poland,2020-03-24,758,nan,1,nan,5,nan,0.017817676452455466,nan
-nan,Seychelles,2020-03-24,7,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Sri Lanka,2020-03-24,85,nan,-3,nan,0,nan,0.017817676452455466,nan
-nan,Taiwan*,2020-03-24,189,nan,32,nan,2,nan,0.017817676452455466,nan
-nan,Germany,2020-03-24,26943,nan,339,nan,118,nan,0.017817676452455466,nan
-nan,Ethiopia,2020-03-24,9,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Armenia,2020-03-24,208,nan,1,nan,0,nan,0.017817676452455466,nan
-nan,Bhutan,2020-03-24,2,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Nigeria,2020-03-24,42,nan,1,nan,0,nan,0.017817676452455466,nan
-nan,Somalia,2020-03-24,1,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Andorra,2020-03-24,114,nan,1,nan,0,nan,0.017817676452455466,nan
-nan,Iceland,2020-03-24,601,nan,56,nan,3,nan,0.017817676452455466,nan
-nan,Spain,2020-03-24,35302,nan,3199,nan,2039,nan,0.017817676452455466,nan
-nan,Burkina Faso,2020-03-24,112,nan,15,nan,4,nan,0.017817676452455466,nan
-nan,Liberia,2020-03-24,5,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Cameroon,2020-03-24,41,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Colombia,2020-03-24,332,nan,1,nan,0,nan,0.017817676452455466,nan
-nan,Philippines,2020-03-24,461,nan,23,nan,21,nan,0.017817676452455466,nan
-nan,Bangladesh,2020-03-24,35,nan,3,nan,4,nan,0.017817676452455466,nan
-nan,Korea  South,2020-03-24,9093,nan,1540,nan,118,nan,0.017817676452455466,nan
-nan,Romania,2020-03-24,485,nan,106,nan,0,nan,0.017817676452455466,nan
-nan,North Macedonia,2020-03-24,121,nan,1,nan,0,nan,0.017817676452455466,nan
-nan,Martinique,2020-03-24,32,nan,0,nan,1,nan,0.017817676452455466,nan
-nan,Senegal,2020-03-24,65,nan,11,nan,0,nan,0.017817676452455466,nan
-nan,Chad,2020-03-24,1,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Uganda,2020-03-24,3,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,New Zealand,2020-03-24,78,nan,0,nan,0,nan,0.017817676452455466,nan
-nan,Slovakia,2020-03-24,260,nan,0,nan,1,nan,0.017817676452455466,nan
-nan,Sudan,2020-03-24,2,nan,0,nan,1,nan,0.017817676452455466,nan
-nan,Morocco,2020-03-24,134,nan,7,nan,3,nan,0.017817676452455466,nan
-nan,Egypt,2020-03-24,312,nan,45,nan,14,nan,0.017817676452455466,nan
-nan,Liechtenstein,2020-03-24,55,nan,0,nan,0,nan,0.017817676452455466,nan
-Bermuda,United Kingdom,2020-03-24,2,nan,0,nan,0,nan,0.017817676452455466,nan
-Guangxi,China,2020-03-24,254,nan,250,nan,2,nan,0.017817676452455466,nan
-Bon Homme  SD,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Hebei,China,2020-03-24,318,nan,310,nan,6,nan,0.017817676452455466,nan
-North Carolina,US,2020-03-24,415,nan,0,nan,0,nan,0.017817676452455466,nan
-Tasmania,Australia,2020-03-24,28,nan,3,nan,0,nan,0.017817676452455466,nan
-Lee County  FL,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-French Polynesia,France,2020-03-24,23,nan,0,nan,0,nan,0.017817676452455466,nan
-Montserrat,United Kingdom,2020-03-24,1,nan,0,nan,0,nan,0.017817676452455466,nan
-DeKalb  GA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-South Dakota,US,2020-03-24,14,nan,0,nan,1,nan,0.017817676452455466,nan
-Bucks  PA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Nova Scotia,Canada,2020-03-24,33,nan,0,nan,0,nan,0.017817676452455466,nan
-Charlotte County  FL,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Norfolk County  MA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Qinghai,China,2020-03-24,18,nan,18,nan,0,nan,0.017817676452455466,nan
-Oregon,US,2020-03-24,114,nan,0,nan,9,nan,0.017817676452455466,nan
-Davison  SD,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Beadle  SD,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Adams  IN,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Sonoma County  CA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Knox  NE,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Middlesex  NJ,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Alameda County  CA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Washington  D.C.,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Los Angeles  CA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Minnesota,US,2020-03-24,184,nan,0,nan,3,nan,0.017817676452455466,nan
-Douglas County  OR,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Spartanburg County  SC,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Ulster County  NY,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Tibet,China,2020-03-24,1,nan,1,nan,0,nan,0.017817676452455466,nan
-Kentucky,US,2020-03-24,167,nan,0,nan,5,nan,0.017817676452455466,nan
-Sichuan,China,2020-03-24,544,nan,536,nan,3,nan,0.017817676452455466,nan
-Chatham County  NC,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Jiangsu,China,2020-03-24,631,nan,631,nan,0,nan,0.017817676452455466,nan
-Guam,US,2020-03-24,17,nan,0,nan,0,nan,0.017817676452455466,nan
-Saratoga County  NY,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Napa  CA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Nassau County  NY,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Shandong,China,2020-03-24,768,nan,751,nan,7,nan,0.017817676452455466,nan
-Florida,US,2020-03-24,851,nan,0,nan,19,nan,0.017817676452455466,nan
-Fort Bend County  TX,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Minnehaha  SD,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Montgomery County  PA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Skagit  WA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-British Columbia,Canada,2020-03-24,730,nan,4,nan,14,nan,0.017817676452455466,nan
-Summit  UT,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Massachusetts,US,2020-03-24,749,nan,0,nan,1,nan,0.017817676452455466,nan
-Grafton County  NH,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Berkshire County  MA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-West Virginia,US,2020-03-24,10,nan,0,nan,0,nan,0.017817676452455466,nan
-Grant County  WA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Guadeloupe,France,2020-03-24,69,nan,0,nan,0,nan,0.017817676452455466,nan
-Hawaii,US,2020-03-24,59,nan,0,nan,0,nan,0.017817676452455466,nan
-Cuyahoga  OH,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Oklahoma,US,2020-03-24,61,nan,0,nan,1,nan,0.017817676452455466,nan
-Marion County  IN,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Howard  IN,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Chongqing,China,2020-03-24,576,nan,570,nan,6,nan,0.017817676452455466,nan
-Jefferson Parish  LA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Michigan,US,2020-03-24,1260,nan,0,nan,9,nan,0.017817676452455466,nan
-Prince George's  MD,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Santa Cruz  CA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-San Mateo  CA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Worcester  MA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Harris County  TX,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Williamson County  TN,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Honolulu County  HI,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-France,France,2020-03-24,17622,nan,12,nan,786,nan,0.017817676452455466,nan
-Newfoundland and Labrador,Canada,2020-03-24,10,nan,0,nan,0,nan,0.017817676452455466,nan
-Stanislaus  CA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Wayne  MI,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-New Brunswick,Canada,2020-03-24,29,nan,0,nan,0,nan,0.017817676452455466,nan
-Olmsted  MN,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Pottawattamie  IA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Tianjin,China,2020-03-24,137,nan,133,nan,3,nan,0.017817676452455466,nan
-Queensland,Australia,2020-03-24,295,nan,8,nan,0,nan,0.017817676452455466,nan
-Manatee County  FL,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Marin  CA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Greenland,Denmark,2020-03-24,2,nan,0,nan,0,nan,0.017817676452455466,nan
-Calaveras  CA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-New York,US,2020-03-24,18510,nan,0,nan,96,nan,0.017817676452455466,nan
-Beijing,China,2020-03-24,530,nan,408,nan,8,nan,0.017817676452455466,nan
-Victoria,Australia,2020-03-24,445,nan,8,nan,0,nan,0.017817676452455466,nan
-Douglas County  CO,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Heilongjiang,China,2020-03-24,484,nan,463,nan,13,nan,0.017817676452455466,nan
-Hainan,China,2020-03-24,168,nan,161,nan,6,nan,0.017817676452455466,nan
-Diamond Princess,US,2020-03-24,712,nan,325,nan,10,nan,0.017817676452455466,nan
-United Kingdom,United Kingdom,2020-03-24,7088,nan,65,nan,345,nan,0.017817676452455466,nan
-Tulsa County  OK,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Netherlands,Netherlands,2020-03-24,4905,nan,2,nan,196,nan,0.017817676452455466,nan
-El Paso County  CO,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Faroe Islands,Denmark,2020-03-24,116,nan,0,nan,0,nan,0.017817676452455466,nan
-South Australia,Australia,2020-03-24,101,nan,3,nan,0,nan,0.017817676452455466,nan
-Norfolk  VA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Denver County  CO,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Pennsylvania,US,2020-03-24,582,nan,0,nan,4,nan,0.017817676452455466,nan
-Montgomery  TX,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Hudson County  NJ,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Yolo County  CA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Alberta,Canada,2020-03-24,293,nan,0,nan,1,nan,0.017817676452455466,nan
-Kansas,US,2020-03-24,83,nan,0,nan,4,nan,0.017817676452455466,nan
-Gunnison  CO,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Denmark,Denmark,2020-03-24,1468,nan,1,nan,21,nan,0.017817676452455466,nan
-Washington County  OR,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Hendricks County  IN,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Burlington  NJ,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Idaho,US,2020-03-24,62,nan,0,nan,0,nan,0.017817676452455466,nan
-Fujian,China,2020-03-24,311,nan,295,nan,1,nan,0.017817676452455466,nan
-Jefferson County  WA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Camden  NJ,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Arapahoe  CO,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Weber  UT,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Hunan,China,2020-03-24,1018,nan,1014,nan,4,nan,0.017817676452455466,nan
-Orange County  CA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Delaware,US,2020-03-24,59,nan,0,nan,0,nan,0.017817676452455466,nan
-New Caledonia,France,2020-03-24,8,nan,0,nan,0,nan,0.017817676452455466,nan
-Washington,US,2020-03-24,2331,nan,0,nan,116,nan,0.017817676452455466,nan
-Vermont,US,2020-03-24,29,nan,0,nan,2,nan,0.017817676452455466,nan
-Saint Barthelemy,France,2020-03-24,3,nan,0,nan,0,nan,0.017817676452455466,nan
-Arlington  VA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Puerto Rico,US,2020-03-24,35,nan,0,nan,3,nan,0.017817676452455466,nan
-Colorado,US,2020-03-24,444,nan,0,nan,4,nan,0.017817676452455466,nan
-Charlton  GA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Georgia,US,2020-03-24,681,nan,0,nan,16,nan,0.017817676452455466,nan
-Deschutes  OR,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Reunion,France,2020-03-24,79,nan,0,nan,0,nan,0.017817676452455466,nan
-Grand Princess,US,2020-03-24,10,nan,0,nan,0,nan,0.017817676452455466,nan
-Passaic  NJ,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Bernalillo  NM,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Sullivan  TN,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-San Benito  CA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Alachua  FL,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Virgin Islands,US,2020-03-24,3,nan,0,nan,0,nan,0.017817676452455466,nan
-Kitsap  WA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Utah,US,2020-03-24,252,nan,0,nan,0,nan,0.017817676452455466,nan
-Quebec,Canada,2020-03-24,265,nan,0,nan,13,nan,0.017817676452455466,nan
-From Diamond Princess,Australia,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Cherokee County  GA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Kershaw County  SC,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Pinal County  AZ,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Humboldt County  CA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Spotsylvania  VA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Jilin,China,2020-03-24,93,nan,92,nan,1,nan,0.017817676452455466,nan
-Montana,US,2020-03-24,33,nan,0,nan,0,nan,0.017817676452455466,nan
-Ontario,Canada,2020-03-24,515,nan,8,nan,5,nan,0.017817676452455466,nan
-Shelby County  TN,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-New Hampshire,US,2020-03-24,77,nan,0,nan,0,nan,0.017817676452455466,nan
-Macau,China,2020-03-24,20,nan,10,nan,0,nan,0.017817676452455466,nan
-Wayne County  PA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Harrison County  KY,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-North Dakota,US,2020-03-24,46,nan,0,nan,0,nan,0.017817676452455466,nan
-Indiana,US,2020-03-24,212,nan,0,nan,8,nan,0.017817676452455466,nan
-Riverside County  CA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Missouri,US,2020-03-24,116,nan,0,nan,5,nan,0.017817676452455466,nan
-Pierce  WI,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Sacramento County  CA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Kane  IL,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Hubei,China,2020-03-24,67800,nan,60074,nan,3151,nan,0.017817676452455466,nan
-Rockingham County  NH,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Pierce County  WA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Delaware County  PA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Ventura  CA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Philadelphia  PA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Davidson County  TN,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Aruba,Netherlands,2020-03-24,5,nan,0,nan,0,nan,0.017817676452455466,nan
-Eagle  CO,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Charles Mix  SD,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Dane  WI,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Saskatchewan,Canada,2020-03-24,38,nan,0,nan,0,nan,0.017817676452455466,nan
-Snohomish County  WA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Liaoning,China,2020-03-24,126,nan,122,nan,2,nan,0.017817676452455466,nan
-Noble  IN,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Sint Maarten,Netherlands,2020-03-24,1,nan,0,nan,0,nan,0.017817676452455466,nan
-Solano  CA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Ningxia,China,2020-03-24,75,nan,75,nan,0,nan,0.017817676452455466,nan
-Connecticut,US,2020-03-24,194,nan,0,nan,6,nan,0.017817676452455466,nan
-Pima  AZ,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Fayette  GA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Maryland,US,2020-03-24,281,nan,0,nan,4,nan,0.017817676452455466,nan
-Suffolk County  NY,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Inner Mongolia,China,2020-03-24,75,nan,74,nan,1,nan,0.017817676452455466,nan
-Essex  MA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Ramsey County  MN,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Polk  OR,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Western Australia,Australia,2020-03-24,142,nan,0,nan,1,nan,0.017817676452455466,nan
-Stark  OH,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Suffolk County  MA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-New Castle  DE,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Polk County  GA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Johnson County  KS,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Pennington  SD,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Island  WA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Fulton County  GA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Virginia,US,2020-03-24,224,nan,0,nan,2,nan,0.017817676452455466,nan
-Louisiana,US,2020-03-24,679,nan,0,nan,20,nan,0.017817676452455466,nan
-Ohio,US,2020-03-24,398,nan,0,nan,5,nan,0.017817676452455466,nan
-Rhode Island,US,2020-03-24,90,nan,0,nan,0,nan,0.017817676452455466,nan
-District of Columbia,US,2020-03-24,89,nan,0,nan,1,nan,0.017817676452455466,nan
-St. Joseph  IN,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Carver County  MN,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Arkansas,US,2020-03-24,174,nan,0,nan,0,nan,0.017817676452455466,nan
-Mississippi,US,2020-03-24,260,nan,0,nan,1,nan,0.017817676452455466,nan
-McHenry  IL,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Douglas County  NE,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Providence County  RI,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-California,US,2020-03-24,1738,nan,0,nan,26,nan,0.017817676452455466,nan
-Texas,US,2020-03-24,955,nan,0,nan,5,nan,0.017817676452455466,nan
-Fairfield  CT,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Bennington County  VT,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Cobb County  GA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Floyd  GA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Boone  IN,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Jefferson County  KY,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Shanghai,China,2020-03-24,398,nan,329,nan,3,nan,0.017817676452455466,nan
-Gwinnett  GA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Klamath County  OR,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Nassau  FL,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Contra Costa County  CA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Santa Rosa County  FL,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Illinois,US,2020-03-24,1089,nan,0,nan,8,nan,0.017817676452455466,nan
-Middlesex County  MA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Guizhou,China,2020-03-24,146,nan,144,nan,2,nan,0.017817676452455466,nan
-Whatcom  WA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Tennessee,US,2020-03-24,647,nan,0,nan,3,nan,0.017817676452455466,nan
-Lake  IL,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Curacao,Netherlands,2020-03-24,3,nan,0,nan,1,nan,0.017817676452455466,nan
-Hillsborough  FL,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Socorro  NM,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Dallas  TX,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Union  NJ,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Multnomah  OR,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Wyoming,US,2020-03-24,31,nan,0,nan,0,nan,0.017817676452455466,nan
-French Guiana,France,2020-03-24,24,nan,0,nan,0,nan,0.017817676452455466,nan
-Guangdong,China,2020-03-24,1410,nan,1329,nan,8,nan,0.017817676452455466,nan
-Nebraska,US,2020-03-24,40,nan,0,nan,0,nan,0.017817676452455466,nan
-South Carolina,US,2020-03-24,261,nan,0,nan,7,nan,0.017817676452455466,nan
-Pasco  FL,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Madera County  CA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Northwest Territories,Canada,2020-03-24,3,nan,0,nan,0,nan,0.017817676452455466,nan
-Davis County  UT,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Westchester County  NY,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Jiangxi,China,2020-03-24,935,nan,934,nan,1,nan,0.017817676452455466,nan
-Summit County  CO,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Okaloosa County  FL,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Gansu,China,2020-03-24,134,nan,143,nan,2,nan,0.017817676452455466,nan
-Gibraltar,United Kingdom,2020-03-24,10,nan,2,nan,0,nan,0.017817676452455466,nan
-St. Louis County  MO,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Shaanxi,China,2020-03-24,250,nan,243,nan,3,nan,0.017817676452455466,nan
-Isle of Man,United Kingdom,2020-03-24,1,nan,0,nan,0,nan,0.017817676452455466,nan
-Oakland  MI,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Iowa,US,2020-03-24,114,nan,0,nan,0,nan,0.017817676452455466,nan
-Kittitas County  WA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Tarrant  TX,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Fayette County  KY,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Nevada,US,2020-03-24,255,nan,0,nan,4,nan,0.017817676452455466,nan
-Jefferson  CO,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Johnson  IN,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Arizona,US,2020-03-24,198,nan,0,nan,3,nan,0.017817676452455466,nan
-Clark County  NV,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Washoe County  NV,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Henan,China,2020-03-24,1273,nan,1250,nan,22,nan,0.017817676452455466,nan
-Cook County  IL,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Wisconsin,US,2020-03-24,432,nan,0,nan,6,nan,0.017817676452455466,nan
-Shasta County  CA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Litchfield  CT,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Jackson County  OR,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Maine,US,2020-03-24,98,nan,0,nan,0,nan,0.017817676452455466,nan
-Larimer  CO,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Broward County  FL,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Yunnan,China,2020-03-24,176,nan,172,nan,2,nan,0.017817676452455466,nan
-King County  WA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Thurston  WA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Shanxi,China,2020-03-24,133,nan,133,nan,0,nan,0.017817676452455466,nan
-Zhejiang,China,2020-03-24,1240,nan,1219,nan,1,nan,0.017817676452455466,nan
-Xinjiang,China,2020-03-24,76,nan,73,nan,3,nan,0.017817676452455466,nan
-New Jersey,US,2020-03-24,2201,nan,0,nan,26,nan,0.017817676452455466,nan
-Wake County  NC,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Gregg  TX,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Camden  NC,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Volusia County  FL,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Channel Islands,United Kingdom,2020-03-24,68,nan,0,nan,0,nan,0.017817676452455466,nan
-Orleans  LA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Prince Edward Island,Canada,2020-03-24,2,nan,0,nan,0,nan,0.017817676452455466,nan
-St Martin,France,2020-03-24,4,nan,0,nan,0,nan,0.017817676452455466,nan
-Loudoun  VA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-New York County  NY,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Fairfax County  VA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Harford County  MD,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Charleston County  SC,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-San Francisco County  CA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Manitoba,Canada,2020-03-24,20,nan,0,nan,0,nan,0.017817676452455466,nan
-Northern Territory,Australia,2020-03-24,3,nan,0,nan,0,nan,0.017817676452455466,nan
-Hanover  VA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Cayman Islands,United Kingdom,2020-03-24,3,nan,0,nan,1,nan,0.017817676452455466,nan
-Hong Kong,China,2020-03-24,307,nan,98,nan,4,nan,0.017817676452455466,nan
-Australian Capital Territory,Australia,2020-03-24,15,nan,0,nan,0,nan,0.017817676452455466,nan
-Monmouth  NJ,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Fresno County  CA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Anhui,China,2020-03-24,990,nan,984,nan,6,nan,0.017817676452455466,nan
-Rockland County  NY,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Alabama,US,2020-03-24,227,nan,0,nan,0,nan,0.017817676452455466,nan
-Clark County  WA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Bergen County  NJ,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Johnson County  IA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Montgomery County  MD,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Santa Clara County  CA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Collier  FL,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-San Diego County  CA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Alaska,US,2020-03-24,21,nan,0,nan,0,nan,0.017817676452455466,nan
-Collin County  TX,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-San Joaquin  CA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-New Mexico,US,2020-03-24,43,nan,0,nan,0,nan,0.017817676452455466,nan
-Pinellas  FL,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Umatilla  OR,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Mayotte,France,2020-03-24,9,nan,0,nan,0,nan,0.017817676452455466,nan
-Maricopa County  AZ,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Marion County  OR,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Placer County  CA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Lancaster  SC,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-Anoka  MN,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
-New South Wales,Australia,2020-03-24,602,nan,4,nan,6,nan,0.017817676452455466,nan
-Monroe  PA,US,2020-03-24,0,nan,0,nan,0,nan,0.017817676452455466,nan
+nan,Israel,2020-03-24,1239,,80,,3,,0.017817676452455466,
+nan,Cabo Verde,2020-03-24,7,,0,,0,,0.017817676452455466,
+nan,Armenia,2020-03-24,208,,1,,0,,0.017817676452455466,
+nan,Martinique,2020-03-24,32,,0,,1,,0.017817676452455466,
+nan,Andorra,2020-03-24,114,,1,,0,,0.017817676452455466,
+nan,Rwanda,2020-03-24,17,,0,,0,,0.017817676452455466,
+nan,Nicaragua,2020-03-24,4,,0,,0,,0.017817676452455466,
+nan,Angola,2020-03-24,4,,0,,0,,0.017817676452455466,
+nan,Mongolia,2020-03-24,18,,0,,0,,0.017817676452455466,
+nan,Brazil,2020-03-24,1477,,2,,23,,0.017817676452455466,
+nan,Iraq,2020-03-24,226,,55,,17,,0.017817676452455466,
+nan,Uzbekistan,2020-03-24,63,,0,,0,,0.017817676452455466,
+nan,Malta,2020-03-24,91,,2,,0,,0.017817676452455466,
+nan,Ireland,2020-03-24,989,,5,,3,,0.017817676452455466,
+nan,Zimbabwe,2020-03-24,7,,0,,0,,0.017817676452455466,
+nan,Bosnia and Herzegovina,2020-03-24,101,,2,,3,,0.017817676452455466,
+nan,Romania,2020-03-24,485,,106,,0,,0.017817676452455466,
+nan,Monaco,2020-03-24,11,,0,,0,,0.017817676452455466,
+nan,Senegal,2020-03-24,65,,11,,0,,0.017817676452455466,
+nan,Madagascar,2020-03-24,3,,0,,0,,0.017817676452455466,
+nan,Colombia,2020-03-24,332,,1,,0,,0.017817676452455466,
+nan,Bolivia,2020-03-24,27,,0,,0,,0.017817676452455466,
+nan,Turkey,2020-03-24,1292,,0,,19,,0.017817676452455466,
+nan,El Salvador,2020-03-24,7,,0,,0,,0.017817676452455466,
+nan,Gambia  The,2020-03-24,1,,0,,0,,0.017817676452455466,
+nan,India,2020-03-24,502,,29,,2,,0.017817676452455466,
+nan,Saint Lucia,2020-03-24,2,,0,,0,,0.017817676452455466,
+nan,Taiwan*,2020-03-24,189,,32,,2,,0.017817676452455466,
+nan,Norway,2020-03-24,2526,,1,,7,,0.017817676452455466,
+nan,Papua New Guinea,2020-03-24,1,,0,,0,,0.017817676452455466,
+nan,Estonia,2020-03-24,352,,1,,0,,0.017817676452455466,
+nan,Guatemala,2020-03-24,27,,0,,1,,0.017817676452455466,
+nan,Bulgaria,2020-03-24,235,,9,,3,,0.017817676452455466,
+nan,Benin,2020-03-24,2,,0,,0,,0.017817676452455466,
+nan,Chad,2020-03-24,1,,0,,0,,0.017817676452455466,
+nan,South Africa,2020-03-24,316,,0,,0,,0.017817676452455466,
+nan,Central African Republic,2020-03-24,3,,0,,0,,0.017817676452455466,
+nan,Somalia,2020-03-24,1,,0,,0,,0.017817676452455466,
+nan,North Macedonia,2020-03-24,121,,1,,0,,0.017817676452455466,
+nan,Morocco,2020-03-24,134,,7,,3,,0.017817676452455466,
+nan,Algeria,2020-03-24,237,,32,,23,,0.017817676452455466,
+nan,Zambia,2020-03-24,2,,0,,0,,0.017817676452455466,
+nan,Mauritania,2020-03-24,2,,0,,0,,0.017817676452455466,
+nan,Suriname,2020-03-24,4,,0,,0,,0.017817676452455466,
+nan,Oman,2020-03-24,60,,12,,0,,0.017817676452455466,
+nan,Paraguay,2020-03-24,28,,0,,3,,0.017817676452455466,
+nan,Slovenia,2020-03-24,467,,0,,1,,0.017817676452455466,
+nan,Kyrgyzstan,2020-03-24,30,,0,,0,,0.017817676452455466,
+nan,Seychelles,2020-03-24,7,,0,,0,,0.017817676452455466,
+nan,Indonesia,2020-03-24,612,,15,,50,,0.017817676452455466,
+nan,Togo,2020-03-24,30,,1,,0,,0.017817676452455466,
+nan,Brunei,2020-03-24,93,,4,,0,,0.017817676452455466,
+nan,Malaysia,2020-03-24,1489,,168,,6,,0.017817676452455466,
+nan,Spain,2020-03-24,35302,,3199,,2039,,0.017817676452455466,
+nan,Austria,2020-03-24,3666,,9,,12,,0.017817676452455466,
+nan,Kuwait,2020-03-24,210,,45,,0,,0.017817676452455466,
+nan,Fiji,2020-03-24,1,,0,,0,,0.017817676452455466,
+nan,Mexico,2020-03-24,281,,4,,4,,0.017817676452455466,
+nan,Jordan,2020-03-24,85,,1,,0,,0.017817676452455466,
+nan,Saudi Arabia,2020-03-24,488,,32,,0,,0.017817676452455466,
+nan,Peru,2020-03-24,486,,1,,9,,0.017817676452455466,
+nan,Sri Lanka,2020-03-24,85,,-3,,0,,0.017817676452455466,
+nan,Cote d'Ivoire,2020-03-24,24,,1,,0,,0.017817676452455466,
+nan,Portugal,2020-03-24,1800,,5,,24,,0.017817676452455466,
+nan,Luxembourg,2020-03-24,1042,,0,,16,,0.017817676452455466,
+nan,Lithuania,2020-03-24,151,,1,,3,,0.017817676452455466,
+nan,Albania,2020-03-24,88,,6,,2,,0.017817676452455466,
+nan,Eritrea,2020-03-24,3,,0,,0,,0.017817676452455466,
+nan,Montenegro,2020-03-24,14,,0,,0,,0.017817676452455466,
+nan,Cyprus,2020-03-24,118,,0,,0,,0.017817676452455466,
+nan,Holy See,2020-03-24,1,,0,,0,,0.017817676452455466,
+nan,Tunisia,2020-03-24,72,,0,,1,,0.017817676452455466,
+nan,Liberia,2020-03-24,5,,0,,0,,0.017817676452455466,
+nan,Haiti,2020-03-24,2,,0,,0,,0.017817676452455466,
+nan,Korea  South,2020-03-24,9093,,1540,,118,,0.017817676452455466,
+nan,Honduras,2020-03-24,24,,0,,0,,0.017817676452455466,
+nan,New Zealand,2020-03-24,78,,0,,0,,0.017817676452455466,
+nan,Japan,2020-03-24,1095,,314,,39,,0.017817676452455466,
+nan,Kazakhstan,2020-03-24,61,,0,,-6,,0.017817676452455466,
+nan,Saint Vincent and the Grenadines,2020-03-24,1,,0,,0,,0.017817676452455466,
+nan,Croatia,2020-03-24,362,,5,,1,,0.017817676452455466,
+nan,Burkina Faso,2020-03-24,112,,15,,4,,0.017817676452455466,
+nan,Bahrain,2020-03-24,345,,175,,1,,0.017817676452455466,
+nan,Uganda,2020-03-24,3,,0,,0,,0.017817676452455466,
+nan,Georgia,2020-03-24,61,,1,,0,,0.017817676452455466,
+nan,Afghanistan,2020-03-24,24,,1,,0,,0.017817676452455466,
+nan,Sweden,2020-03-24,2011,,16,,28,,0.017817676452455466,
+nan,Russia,2020-03-24,412,,18,,1,,0.017817676452455466,
+nan,Belarus,2020-03-24,90,,35,,0,,0.017817676452455466,
+nan,Bhutan,2020-03-24,2,,0,,0,,0.017817676452455466,
+nan,Maldives,2020-03-24,13,,0,,0,,0.017817676452455466,
+nan,Serbia,2020-03-24,243,,1,,1,,0.017817676452455466,
+nan,Sudan,2020-03-24,2,,0,,1,,0.017817676452455466,
+nan,Italy,2020-03-24,66692,,9336,,6411,,0.017817676452455466,
+nan,Argentina,2020-03-24,218,,3,,6,,0.017817676452455466,
+nan,Bangladesh,2020-03-24,35,,3,,4,,0.017817676452455466,
+nan,Jamaica,2020-03-24,16,,2,,1,,0.017817676452455466,
+nan,Hungary,2020-03-24,139,,17,,6,,0.017817676452455466,
+nan,Nigeria,2020-03-24,42,,1,,0,,0.017817676452455466,
+nan,Czechia,2020-03-24,1319,,10,,0,,0.017817676452455466,
+nan,Liechtenstein,2020-03-24,55,,0,,0,,0.017817676452455466,
+nan,Egypt,2020-03-24,312,,45,,14,,0.017817676452455466,
+nan,Kosovo,2020-03-24,2,,0,,0,,0.017817676452455466,
+nan,Niger,2020-03-24,1,,0,,0,,0.017817676452455466,
+nan,East Timor,2020-03-24,3,,0,,0,,0.017817676452455466,
+nan,Congo (Kinshasa),2020-03-24,33,,0,,3,,0.017817676452455466,
+nan,Gabon,2020-03-24,6,,0,,1,,0.017817676452455466,
+nan,Ghana,2020-03-24,25,,0,,3,,0.017817676452455466,
+nan,Namibia,2020-03-24,3,,0,,0,,0.017817676452455466,
+nan,Guinea,2020-03-24,4,,0,,0,,0.017817676452455466,
+nan,Bahamas  The,2020-03-24,6,,0,,0,,0.017817676452455466,
+nan,Cameroon,2020-03-24,41,,0,,0,,0.017817676452455466,
+nan,Cape Verde,2020-03-24,3,,0,,0,,0.017817676452455466,
+nan,Guyana,2020-03-24,7,,0,,1,,0.017817676452455466,
+nan,Nepal,2020-03-24,1,,1,,0,,0.017817676452455466,
+nan,United Arab Emirates,2020-03-24,179,,52,,2,,0.017817676452455466,
+nan,Trinidad and Tobago,2020-03-24,129,,3,,0,,0.017817676452455466,
+nan,Djibouti,2020-03-24,1,,0,,0,,0.017817676452455466,
+nan,Kenya,2020-03-24,7,,0,,0,,0.017817676452455466,
+nan,Antigua and Barbuda,2020-03-24,1,,0,,0,,0.017817676452455466,
+nan,Barbados,2020-03-24,8,,0,,0,,0.017817676452455466,
+nan,Ecuador,2020-03-24,784,,9,,11,,0.017817676452455466,
+nan,Dominican Republic,2020-03-24,192,,0,,2,,0.017817676452455466,
+nan,Iceland,2020-03-24,601,,56,,3,,0.017817676452455466,
+nan,Panama,2020-03-24,326,,0,,1,,0.017817676452455466,
+nan,Germany,2020-03-24,26943,,339,,118,,0.017817676452455466,
+nan,Eswatini,2020-03-24,1,,0,,0,,0.017817676452455466,
+nan,Cambodia,2020-03-24,57,,1,,0,,0.017817676452455466,
+nan,Finland,2020-03-24,669,,10,,3,,0.017817676452455466,
+nan,Pakistan,2020-03-24,1188,,13,,3,,0.017817676452455466,
+nan,San Marino,2020-03-24,144,,4,,32,,0.017817676452455466,
+nan,Singapore,2020-03-24,526,,172,,6,,0.017817676452455466,
+nan,Tanzania,2020-03-24,6,,0,,0,,0.017817676452455466,
+nan,Ethiopia,2020-03-24,9,,0,,0,,0.017817676452455466,
+nan,Greece,2020-03-24,600,,19,,27,,0.017817676452455466,
+nan,Equatorial Guinea,2020-03-24,6,,0,,0,,0.017817676452455466,
+nan,Qatar,2020-03-24,503,,61,,0,,0.017817676452455466,
+nan,Belgium,2020-03-24,3931,,787,,127,,0.017817676452455466,
+nan,Iran,2020-03-24,22542,,9415,,1802,,0.017817676452455466,
+nan,Mauritius,2020-03-24,18,,0,,3,,0.017817676452455466,
+nan,Venezuela,2020-03-24,126,,0,,0,,0.017817676452455466,
+nan,Azerbaijan,2020-03-24,71,,21,,1,,0.017817676452455466,
+nan,Latvia,2020-03-24,150,,1,,0,,0.017817676452455466,
+nan,Moldova,2020-03-24,108,,1,,1,,0.017817676452455466,
+nan,Philippines,2020-03-24,461,,23,,21,,0.017817676452455466,
+nan,Cuba,2020-03-24,31,,0,,1,,0.017817676452455466,
+nan,Lebanon,2020-03-24,235,,4,,4,,0.017817676452455466,
+nan,Vietnam,2020-03-24,100,,19,,0,,0.017817676452455466,
+nan,Thailand,2020-03-24,589,,42,,1,,0.017817676452455466,
+nan,Switzerland,2020-03-24,9137,,15,,117,,0.017817676452455466,
+nan,Congo (Brazzaville),2020-03-24,3,,0,,0,,0.017817676452455466,
+nan,Costa Rica,2020-03-24,173,,6,,4,,0.017817676452455466,
+nan,Slovakia,2020-03-24,260,,0,,1,,0.017817676452455466,
+nan,Chile,2020-03-24,743,,6,,0,,0.017817676452455466,
+nan,Uruguay,2020-03-24,142,,0,,0,,0.017817676452455466,
+nan,Ukraine,2020-03-24,83,,3,,3,,0.017817676452455466,
+nan,Poland,2020-03-24,758,,1,,5,,0.017817676452455466,
+Multnomah  OR,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Summit County  CO,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Northwest Territories,Canada,2020-03-24,3,,0,,0,,0.017817676452455466,
+Faroe Islands,Denmark,2020-03-24,116,,0,,0,,0.017817676452455466,
+Jiangsu,China,2020-03-24,631,,631,,0,,0.017817676452455466,
+Loudoun  VA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Clark County  NV,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Socorro  NM,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Guadeloupe,France,2020-03-24,69,,0,,0,,0.017817676452455466,
+Kansas,US,2020-03-24,83,,0,,4,,0.017817676452455466,
+Jefferson Parish  LA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+El Paso County  CO,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Kane  IL,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Chatham County  NC,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Pinal County  AZ,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Orleans  LA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Nebraska,US,2020-03-24,40,,0,,0,,0.017817676452455466,
+Nevada,US,2020-03-24,255,,0,,4,,0.017817676452455466,
+Island  WA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Skagit  WA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Macau,China,2020-03-24,20,,10,,0,,0.017817676452455466,
+Hainan,China,2020-03-24,168,,161,,6,,0.017817676452455466,
+Anoka  MN,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Ulster County  NY,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Johnson  IN,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+New Brunswick,Canada,2020-03-24,29,,0,,0,,0.017817676452455466,
+Massachusetts,US,2020-03-24,749,,0,,1,,0.017817676452455466,
+Collin County  TX,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Cuyahoga  OH,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Colorado,US,2020-03-24,444,,0,,4,,0.017817676452455466,
+New Mexico,US,2020-03-24,43,,0,,0,,0.017817676452455466,
+Polk County  GA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Hudson County  NJ,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Tianjin,China,2020-03-24,137,,133,,3,,0.017817676452455466,
+Western Australia,Australia,2020-03-24,142,,0,,1,,0.017817676452455466,
+Polk  OR,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Heilongjiang,China,2020-03-24,484,,463,,13,,0.017817676452455466,
+Hendricks County  IN,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Bennington County  VT,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Montgomery County  MD,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Minnehaha  SD,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Arizona,US,2020-03-24,198,,0,,3,,0.017817676452455466,
+Ningxia,China,2020-03-24,75,,75,,0,,0.017817676452455466,
+Netherlands,Netherlands,2020-03-24,4905,,2,,196,,0.017817676452455466,
+Pennsylvania,US,2020-03-24,582,,0,,4,,0.017817676452455466,
+Klamath County  OR,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Lake  IL,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Montana,US,2020-03-24,33,,0,,0,,0.017817676452455466,
+Hunan,China,2020-03-24,1018,,1014,,4,,0.017817676452455466,
+Marion County  IN,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Kershaw County  SC,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Henan,China,2020-03-24,1273,,1250,,22,,0.017817676452455466,
+Fort Bend County  TX,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Sichuan,China,2020-03-24,544,,536,,3,,0.017817676452455466,
+Adams  IN,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Burlington  NJ,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Knox  NE,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Wayne  MI,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Jefferson County  KY,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Larimer  CO,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Davison  SD,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Shanghai,China,2020-03-24,398,,329,,3,,0.017817676452455466,
+British Columbia,Canada,2020-03-24,730,,4,,14,,0.017817676452455466,
+Illinois,US,2020-03-24,1089,,0,,8,,0.017817676452455466,
+Delaware County  PA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Washoe County  NV,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Arlington  VA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Saratoga County  NY,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Charleston County  SC,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Grand Princess,US,2020-03-24,10,,0,,0,,0.017817676452455466,
+Pasco  FL,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Santa Rosa County  FL,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Guam,US,2020-03-24,17,,0,,0,,0.017817676452455466,
+Zhejiang,China,2020-03-24,1240,,1219,,1,,0.017817676452455466,
+Ontario,Canada,2020-03-24,515,,8,,5,,0.017817676452455466,
+Summit  UT,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+New Jersey,US,2020-03-24,2201,,0,,26,,0.017817676452455466,
+Cobb County  GA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Santa Cruz  CA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Middlesex  NJ,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Essex  MA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Northern Territory,Australia,2020-03-24,3,,0,,0,,0.017817676452455466,
+Jackson County  OR,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Berkshire County  MA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Idaho,US,2020-03-24,62,,0,,0,,0.017817676452455466,
+Howard  IN,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Fayette County  KY,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Victoria,Australia,2020-03-24,445,,8,,0,,0.017817676452455466,
+Ohio,US,2020-03-24,398,,0,,5,,0.017817676452455466,
+Santa Clara County  CA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Jilin,China,2020-03-24,93,,92,,1,,0.017817676452455466,
+Wake County  NC,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Napa  CA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Arapahoe  CO,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Pennington  SD,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Aruba,Netherlands,2020-03-24,5,,0,,0,,0.017817676452455466,
+Hanover  VA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+District of Columbia,US,2020-03-24,89,,0,,1,,0.017817676452455466,
+Camden  NC,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Gansu,China,2020-03-24,134,,143,,2,,0.017817676452455466,
+Spotsylvania  VA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Oakland  MI,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Qinghai,China,2020-03-24,18,,18,,0,,0.017817676452455466,
+Monroe  PA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Worcester  MA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Nassau  FL,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Missouri,US,2020-03-24,116,,0,,5,,0.017817676452455466,
+Florida,US,2020-03-24,851,,0,,19,,0.017817676452455466,
+Maine,US,2020-03-24,98,,0,,0,,0.017817676452455466,
+Puerto Rico,US,2020-03-24,35,,0,,3,,0.017817676452455466,
+Saskatchewan,Canada,2020-03-24,38,,0,,0,,0.017817676452455466,
+Sint Maarten,Netherlands,2020-03-24,1,,0,,0,,0.017817676452455466,
+Fairfield  CT,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Dane  WI,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Fujian,China,2020-03-24,311,,295,,1,,0.017817676452455466,
+Virginia,US,2020-03-24,224,,0,,2,,0.017817676452455466,
+Diamond Princess,US,2020-03-24,712,,325,,10,,0.017817676452455466,
+Harford County  MD,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+New York County  NY,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Collier  FL,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Carver County  MN,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Douglas County  NE,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Pinellas  FL,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+New Caledonia,France,2020-03-24,8,,0,,0,,0.017817676452455466,
+Madera County  CA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+McHenry  IL,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+South Dakota,US,2020-03-24,14,,0,,1,,0.017817676452455466,
+Volusia County  FL,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Dallas  TX,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Connecticut,US,2020-03-24,194,,0,,6,,0.017817676452455466,
+Maricopa County  AZ,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Wayne County  PA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Nassau County  NY,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Ramsey County  MN,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Cherokee County  GA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Alabama,US,2020-03-24,227,,0,,0,,0.017817676452455466,
+Reunion,France,2020-03-24,79,,0,,0,,0.017817676452455466,
+Clark County  WA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Kittitas County  WA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Iowa,US,2020-03-24,114,,0,,0,,0.017817676452455466,
+Washington,US,2020-03-24,2331,,0,,116,,0.017817676452455466,
+Fulton County  GA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Beadle  SD,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Davis County  UT,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Greenland,Denmark,2020-03-24,2,,0,,0,,0.017817676452455466,
+Union  NJ,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Bernalillo  NM,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Stanislaus  CA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Sullivan  TN,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+United Kingdom,United Kingdom,2020-03-24,7088,,65,,345,,0.017817676452455466,
+Maryland,US,2020-03-24,281,,0,,4,,0.017817676452455466,
+Cook County  IL,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Texas,US,2020-03-24,955,,0,,5,,0.017817676452455466,
+Isle of Man,United Kingdom,2020-03-24,1,,0,,0,,0.017817676452455466,
+Norfolk  VA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Bermuda,United Kingdom,2020-03-24,2,,0,,0,,0.017817676452455466,
+Spartanburg County  SC,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Monmouth  NJ,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Tennessee,US,2020-03-24,647,,0,,3,,0.017817676452455466,
+Denmark,Denmark,2020-03-24,1468,,1,,21,,0.017817676452455466,
+Alaska,US,2020-03-24,21,,0,,0,,0.017817676452455466,
+Boone  IN,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Westchester County  NY,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Olmsted  MN,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Bergen County  NJ,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+San Francisco County  CA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Shelby County  TN,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Minnesota,US,2020-03-24,184,,0,,3,,0.017817676452455466,
+Harrison County  KY,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Camden  NJ,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Virgin Islands,US,2020-03-24,3,,0,,0,,0.017817676452455466,
+New York,US,2020-03-24,18510,,0,,96,,0.017817676452455466,
+Weber  UT,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Suffolk County  NY,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Okaloosa County  FL,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Washington County  OR,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Alachua  FL,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+South Australia,Australia,2020-03-24,101,,3,,0,,0.017817676452455466,
+Placer County  CA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Providence County  RI,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Nova Scotia,Canada,2020-03-24,33,,0,,0,,0.017817676452455466,
+Douglas County  OR,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Indiana,US,2020-03-24,212,,0,,8,,0.017817676452455466,
+Contra Costa County  CA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Queensland,Australia,2020-03-24,295,,8,,0,,0.017817676452455466,
+Johnson County  IA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Calaveras  CA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Harris County  TX,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Anhui,China,2020-03-24,990,,984,,6,,0.017817676452455466,
+Solano  CA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Yunnan,China,2020-03-24,176,,172,,2,,0.017817676452455466,
+Cayman Islands,United Kingdom,2020-03-24,3,,0,,1,,0.017817676452455466,
+Rockingham County  NH,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Louisiana,US,2020-03-24,679,,0,,20,,0.017817676452455466,
+Guizhou,China,2020-03-24,146,,144,,2,,0.017817676452455466,
+Humboldt County  CA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+St. Louis County  MO,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Fayette  GA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Eagle  CO,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Beijing,China,2020-03-24,530,,408,,8,,0.017817676452455466,
+Washington  D.C.,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+South Carolina,US,2020-03-24,261,,0,,7,,0.017817676452455466,
+Charles Mix  SD,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Alameda County  CA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Pierce  WI,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Marin  CA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+San Mateo  CA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Stark  OH,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Shanxi,China,2020-03-24,133,,133,,0,,0.017817676452455466,
+Charlton  GA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Michigan,US,2020-03-24,1260,,0,,9,,0.017817676452455466,
+Gregg  TX,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Tibet,China,2020-03-24,1,,1,,0,,0.017817676452455466,
+Montgomery  TX,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Riverside County  CA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Shandong,China,2020-03-24,768,,751,,7,,0.017817676452455466,
+Douglas County  CO,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Bon Homme  SD,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+North Carolina,US,2020-03-24,415,,0,,0,,0.017817676452455466,
+Grant County  WA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+San Diego County  CA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Tasmania,Australia,2020-03-24,28,,3,,0,,0.017817676452455466,
+Ventura  CA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Jefferson County  WA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Liaoning,China,2020-03-24,126,,122,,2,,0.017817676452455466,
+Curacao,Netherlands,2020-03-24,3,,0,,1,,0.017817676452455466,
+Mayotte,France,2020-03-24,9,,0,,0,,0.017817676452455466,
+Gibraltar,United Kingdom,2020-03-24,10,,2,,0,,0.017817676452455466,
+New Hampshire,US,2020-03-24,77,,0,,0,,0.017817676452455466,
+Hawaii,US,2020-03-24,59,,0,,0,,0.017817676452455466,
+Prince George's  MD,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Jiangxi,China,2020-03-24,935,,934,,1,,0.017817676452455466,
+Lancaster  SC,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+St. Joseph  IN,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Pima  AZ,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Hillsborough  FL,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+French Polynesia,France,2020-03-24,23,,0,,0,,0.017817676452455466,
+Quebec,Canada,2020-03-24,265,,0,,13,,0.017817676452455466,
+Inner Mongolia,China,2020-03-24,75,,74,,1,,0.017817676452455466,
+Delaware,US,2020-03-24,59,,0,,0,,0.017817676452455466,
+San Joaquin  CA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Thurston  WA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Fresno County  CA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Saint Barthelemy,France,2020-03-24,3,,0,,0,,0.017817676452455466,
+Snohomish County  WA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+New Castle  DE,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Vermont,US,2020-03-24,29,,0,,2,,0.017817676452455466,
+Philadelphia  PA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Hubei,China,2020-03-24,67800,,60074,,3151,,0.017817676452455466,
+Shaanxi,China,2020-03-24,250,,243,,3,,0.017817676452455466,
+Los Angeles  CA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Whatcom  WA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+DeKalb  GA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Umatilla  OR,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Shasta County  CA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Sonoma County  CA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Grafton County  NH,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+From Diamond Princess,Australia,2020-03-24,0,,0,,0,,0.017817676452455466,
+Sacramento County  CA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+California,US,2020-03-24,1738,,0,,26,,0.017817676452455466,
+Deschutes  OR,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Montgomery County  PA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Pierce County  WA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Fairfax County  VA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Davidson County  TN,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Williamson County  TN,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Pottawattamie  IA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Broward County  FL,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+West Virginia,US,2020-03-24,10,,0,,0,,0.017817676452455466,
+St Martin,France,2020-03-24,4,,0,,0,,0.017817676452455466,
+Tarrant  TX,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+French Guiana,France,2020-03-24,24,,0,,0,,0.017817676452455466,
+Tulsa County  OK,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Kitsap  WA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Rockland County  NY,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+France,France,2020-03-24,17622,,12,,786,,0.017817676452455466,
+Charlotte County  FL,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Wisconsin,US,2020-03-24,432,,0,,6,,0.017817676452455466,
+Bucks  PA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Marion County  OR,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+King County  WA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Gwinnett  GA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Noble  IN,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Mississippi,US,2020-03-24,260,,0,,1,,0.017817676452455466,
+San Benito  CA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Channel Islands,United Kingdom,2020-03-24,68,,0,,0,,0.017817676452455466,
+North Dakota,US,2020-03-24,46,,0,,0,,0.017817676452455466,
+New South Wales,Australia,2020-03-24,602,,4,,6,,0.017817676452455466,
+Johnson County  KS,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Arkansas,US,2020-03-24,174,,0,,0,,0.017817676452455466,
+Litchfield  CT,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Georgia,US,2020-03-24,681,,0,,16,,0.017817676452455466,
+Hebei,China,2020-03-24,318,,310,,6,,0.017817676452455466,
+Passaic  NJ,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Prince Edward Island,Canada,2020-03-24,2,,0,,0,,0.017817676452455466,
+Alberta,Canada,2020-03-24,293,,0,,1,,0.017817676452455466,
+Oklahoma,US,2020-03-24,61,,0,,1,,0.017817676452455466,
+Yolo County  CA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Utah,US,2020-03-24,252,,0,,0,,0.017817676452455466,
+Wyoming,US,2020-03-24,31,,0,,0,,0.017817676452455466,
+Oregon,US,2020-03-24,114,,0,,9,,0.017817676452455466,
+Hong Kong,China,2020-03-24,307,,98,,4,,0.017817676452455466,
+Floyd  GA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Denver County  CO,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Xinjiang,China,2020-03-24,76,,73,,3,,0.017817676452455466,
+Manitoba,Canada,2020-03-24,20,,0,,0,,0.017817676452455466,
+Norfolk County  MA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Jefferson  CO,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Rhode Island,US,2020-03-24,90,,0,,0,,0.017817676452455466,
+Newfoundland and Labrador,Canada,2020-03-24,10,,0,,0,,0.017817676452455466,
+Manatee County  FL,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Montserrat,United Kingdom,2020-03-24,1,,0,,0,,0.017817676452455466,
+Chongqing,China,2020-03-24,576,,570,,6,,0.017817676452455466,
+Gunnison  CO,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Lee County  FL,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Suffolk County  MA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Guangdong,China,2020-03-24,1410,,1329,,8,,0.017817676452455466,
+Middlesex County  MA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Kentucky,US,2020-03-24,167,,0,,5,,0.017817676452455466,
+Guangxi,China,2020-03-24,254,,250,,2,,0.017817676452455466,
+Honolulu County  HI,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Orange County  CA,US,2020-03-24,0,,0,,0,,0.017817676452455466,
+Australian Capital Territory,Australia,2020-03-24,15,,0,,0,,0.017817676452455466,
