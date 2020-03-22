@@ -78,10 +78,10 @@ for tmp_location in set(data['Country/Region'][cat2_idx]):
     next_pred_date_str = str(next_pred_date)+","
     loc1_str = str(loc1).replace(',', ' ') + ","
     loc2_str = str(loc2).replace(',', ' ') + ","
-    n_str = str(next_confirmed)+",nan,"
-    r_str = str(next_recovered)+",nan,"
-    d_str = str(next_deaths) + ",nan,"
-    m_str = str(next_mortality_avg)+ ",nan\n"
+    n_str = str(next_confirmed)+",,"
+    r_str = str(next_recovered)+",,"
+    d_str = str(next_deaths) + ",,"
+    m_str = str(next_mortality_avg)+ ",\n"
     
     f.write(loc1_str+loc2_str+next_pred_date_str+n_str+r_str+d_str+m_str)
 
@@ -99,10 +99,10 @@ for tmp_location in set(data['Province/State'][cat1_idx]):
     next_pred_date_str = str(next_pred_date)+","
     loc1_str = str(loc1).replace(',', ' ') + ","
     loc2_str = str(loc2).replace(',', ' ') + ","
-    n_str = str(next_confirmed)+",nan,"
-    r_str = str(next_recovered)+",nan,"
-    d_str = str(next_deaths) + ",nan,"
-    m_str = str(next_mortality_avg)+ ",nan\n"
+    n_str = str(next_confirmed)+",,"
+    r_str = str(next_recovered)+",,"
+    d_str = str(next_deaths) + ",,"
+    m_str = str(next_mortality_avg)+ ",\n"
     
     f.write(loc1_str+loc2_str+next_pred_date_str+n_str+r_str+d_str+m_str)
     
