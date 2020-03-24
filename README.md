@@ -3,7 +3,9 @@ Baseline epidemic models
 
 1. Run Newton-Leibniz baseline
 
-./run_leibniz_baseline.sh 
+get the latest data update, see https://github.com/datasets/covid-19
+then
+python leibniz_baseline.py 
 
 2. Run Logistic growth baseline
 
