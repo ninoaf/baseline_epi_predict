@@ -58,10 +58,10 @@ print(file_str)
 
 next_pred_date = today+datetime.timedelta(days=num_days)
 f = open(file_str,"w+")
-#'Province/State, Country, prediction target date, N, varN, R, varR, D, varD, M, varM
-#, Switzerland, 14/03/2020, 1211, 1100-1400, 20, 10-60, 3, 3-5, 0.05, 0.01-0.1
 
-f.write("Province/State,Country,Prediction Target Date,N,varN,R,varR,D,varD,M,varM \n")
+f.write("Province/State, Country, prediction target date, N, low95N, high95N, R, low95R, high95R, D, low95D, high95D, T, low95T, high95T, M, low95M, high95M \n")
+
+
 
 cat2_idx = data['Province/State'].isnull()
 for tmp_location in set(data['Country/Region'][cat2_idx]):
@@ -75,15 +75,16 @@ for tmp_location in set(data['Country/Region'][cat2_idx]):
     loc1 = data['Province/State'][idx_location].iloc[0]
     loc2 = data['Country/Region'][idx_location].iloc[0]
 
-    next_pred_date_str = str(next_pred_date)+","
+    next_pred_date_str = next_pred_date.strftime("%Y-%m-%d")+","
     loc1_str = str(loc1).replace(',', ' ') + ","
     loc2_str = str(loc2).replace(',', ' ') + ","
-    n_str = str(next_confirmed)+",,"
-    r_str = str(next_recovered)+",,"
-    d_str = str(next_deaths) + ",,"
-    m_str = str(next_mortality_avg)+ ",\n"
-    
-    f.write(","+loc2_str+next_pred_date_str+n_str+r_str+d_str+m_str)
+    n_str = str(next_confirmed)+",,,"
+    r_str = str(next_recovered)+",,,"
+    d_str = str(next_deaths) + ",,,"
+    t_str = ",,,"
+    m_str = ",,,\n"
+
+    f.write(","+loc2_str+next_pred_date_str+n_str+r_str+d_str+t_str+m_str)
 
 cat1_idx = data['Province/State'].notnull()
 for tmp_location in set(data['Province/State'][cat1_idx]):
@@ -96,15 +97,16 @@ for tmp_location in set(data['Province/State'][cat1_idx]):
     loc1 = data['Province/State'][idx_location].iloc[0]
     loc2 = data['Country/Region'][idx_location].iloc[0]
 
-    next_pred_date_str = str(next_pred_date)+","
+    next_pred_date_str = next_pred_date.strftime("%Y-%m-%d")+","
     loc1_str = str(loc1).replace(',', ' ') + ","
     loc2_str = str(loc2).replace(',', ' ') + ","
-    n_str = str(next_confirmed)+",,"
-    r_str = str(next_recovered)+",,"
-    d_str = str(next_deaths) + ",,"
-    m_str = str(next_mortality_avg)+ ",\n"
-    
-    f.write(loc1_str+loc2_str+next_pred_date_str+n_str+r_str+d_str+m_str)
+    n_str = str(next_confirmed)+",,,"
+    r_str = str(next_recovered)+",,,"
+    d_str = str(next_deaths) + ",,,"
+    t_str = ",,,"
+    m_str = ",,,\n"
+
+    f.write(loc1_str+loc2_str+next_pred_date_str+n_str+r_str+d_str+t_str+m_str)
     
 print("baseline predictions writtern to:"+file_str)    
 f.close()
