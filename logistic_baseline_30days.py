@@ -17,9 +17,6 @@ def pred_logistic(x_train, y_train, x_pred, L):
         
 
     x_pred = np.copy(x_pred)/max(x_train)
-
-    print(x_train)
-    print(y_train)
     
     x_train = np.copy(x_train)/max(x_train)    
     y_train = np.copy(y_train)/L
@@ -42,20 +39,19 @@ def pred_logistic(x_train, y_train, x_pred, L):
     
     return y_pred, y_pred_lower, y_pred_upper
 
-data = pd.read_csv('countries-aggregated.csv')
+confirmed = pd.read_csv('time_series_covid19_confirmed_global.csv')
+deaths = pd.read_csv('time_series_covid19_deaths_global.csv')
+recovered = pd.read_csv('time_series_covid19_recovered_global.csv')
 
-colnames = data.columns.tolist()
+colnames = confirmed.columns.tolist()
 
-start = datetime.datetime.strptime('2020-01-22', "%Y-%m-%d")
-end = datetime.datetime.today()
-date_generated = [start + datetime.timedelta(days=x) for x in range(0, (end-start).days)]
-
-delta_arr = [0]
+delta_arr = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30]
 
 for delta in delta_arr:
-    date_generated = [start + datetime.timedelta(days=x) for x in range(0, (end-start).days-delta)]
     
-    print(date_generated)
+    start = datetime.datetime.strptime(colnames[4], "%m/%d/%y")
+    end = datetime.datetime.strptime(colnames[-1], "%m/%d/%y")
+    date_generated = [start + datetime.timedelta(days=x) for x in range(0, (end-start).days-delta)]
     
     countries = ['Switzerland', 'Italy', 'Germany', 'US', 'France', 'Spain']
     population = [8.57e6, 60.5e6, 82.8e6, 327.2e6, 66.99e6, 46.66e6]
@@ -71,24 +67,23 @@ for delta in delta_arr:
     print(file_str)
     
     f = open(file_str,"w+")
-        #'Province/State, Country, prediction target date, N, varN, R, varR, D, varD, M, varM
-        #NaN, Switzerland, 14/03/2020, 1211, 1100-1400, 20, 10-60, 3, 3-5, 0.05, 0.01-0.1
-    f.write("Province/State,Country,Prediction Target Date,N,varN,R,varR,D,varD,M,varM \n")
-        
+        #Province/State,Country/Region,Target/Date,N,low95N,high95N,R,low95R,high95R,D,low95D,high95D,T,low95T,high95T,M,low95M,high95M
+    f.write("Province/State,Country,Target/Date,N,low95N,high95N,R,low95R,high95R,D,low95D,high95D,T,low95T,high95T,M,low95M,high95M,C,low95C,high95C\n")
+    
     for i in range(len(countries)):
     
-        confirmed_region = data.loc[data['Country'] == countries[i]]['Confirmed'].tolist()
-        deaths_region = data.loc[data['Country'] == countries[i]]['Deaths'].tolist()
-        recovered_region = data.loc[data['Country'] == countries[i]]['Recovered'].tolist()
+        confirmed_region = confirmed.loc[confirmed['Country/Region'] == countries[i]]
+        deaths_region = deaths.loc[deaths['Country/Region'] == countries[i]]
+        recovered_region = recovered.loc[recovered['Country/Region'] == countries[i]]
         
-        confirmed_region = np.asarray([confirmed_region[i] for i in range(len(date_generated))])
-        deaths_region = np.asarray([deaths_region[i] for i in range(len(date_generated))])
-        recovered_region = np.asarray([recovered_region[i] for i in range(len(date_generated))])
+        confirmed_region = np.asarray([float(sum(confirmed_region[colnames[4+i]])) for i in range(len(date_generated))])
+        deaths_region = np.asarray([float(sum(deaths_region[colnames[4+i]])) for i in range(len(date_generated))])
+        recovered_region = np.asarray([float(sum(recovered_region[colnames[4+i]])) for i in range(len(date_generated))])
         days = np.linspace(0, len(date_generated)-1, len(date_generated))
         
         days_prediction = np.linspace(0, len(date_generated)-1+prediction_delta, len(date_generated)+prediction_delta)
-        dates_prediction = [start + datetime.timedelta(days=x) for x in range(0, (end-start).days+prediction_delta-1)]
-        
+        dates_prediction = [start + datetime.timedelta(days=x) for x in range(0, (end-start).days+prediction_delta)]
+    
         conf_flag = 0
         d_flag = 0
         rec_flag = 0
@@ -133,36 +128,53 @@ for delta in delta_arr:
 #        plt.tight_layout()
 #        plt.show()
         
-        if d_flag == 0 and conf_flag == 0:
-            next_mortality = deaths_pred/confirmed_pred
+        if np.logical_and(d_flag == 0, conf_flag == 0):
+            next_mortality = deaths_pred[-1]/confirmed_pred[-1]
             next_mortality_lower = deaths_pred_lower[-1]/confirmed_pred_upper[-1]
             next_mortality_upper = deaths_pred_upper[-1]/confirmed_pred_lower[-1]
         else:
             next_mortality = ''
             next_mortality_lower = ''
             next_mortality_upper = ''
+            
+        # fraction of confirmed cases that require hospitalization
+        fserious = 0.05
+        if np.logical_and(conf_flag == 0, len(confirmed_pred) > 15):
+            serious = (confirmed_pred[len(confirmed_pred)-1]-confirmed_pred[len(confirmed_pred)-16])*fserious
+            serious_lower = (confirmed_pred_lower[len(confirmed_pred)-1]-confirmed_pred[len(confirmed_pred)-16])*fserious
+            serious_upper = (confirmed_pred_upper[len(confirmed_pred)-1]-confirmed_pred[len(confirmed_pred)-16])*fserious
+        elif conf_flag == 0:
+            serious = (confirmed_pred[j])*fserious
+            serious_lower = (confirmed_pred_lower[j])*fserious
+            serious_upper = (confirmed_pred_upper[j])*fserious
+        else:
+            serious = ""
+            serious_lower = ""
+            serious_upper = ""
 
         next_pred_date_str = str(next_pred_date)+","
         loc1_str = ","
         loc2_str = str(countries[i]).replace(',', ' ')+","
         if conf_flag == 0:
-            n_str = str(confirmed_pred[-1])+","+str(confirmed_pred_lower[-1])+"-"+str(confirmed_pred_upper[-1])+","
+            n_str = str(confirmed_pred[-1])+","+str(confirmed_pred_lower[-1])+","+str(confirmed_pred_upper[-1])+","
         else:
-            n_str = ","+","
+            n_str = ","+","+","
             
         if rec_flag == 0:
-            r_str = str(recovered_pred[-1])+","+str(recovered_pred_lower[-1])+"-"+str(recovered_pred_upper[-1])+","
+            r_str = str(recovered_pred[-1])+","+str(recovered_pred_lower[-1])+","+str(recovered_pred_upper[-1])+","
         else:
-            r_str = ","+","
+            r_str = ","+","+","
           
         if d_flag == 0:
-            d_str = str(deaths_pred[-1])+","+str(deaths_pred_lower[-1])+"-"+str(deaths_pred_upper[-1])+","
+            d_str = str(deaths_pred[-1])+","+str(deaths_pred_lower[-1])+","+str(deaths_pred_upper[-1])+","
         else:
-            d_str = ","+","
-            
-        m_str = str(next_mortality[-1])+","+str(next_mortality_lower)+"-"+str(next_mortality_upper)+ "\n"
+            d_str = ","+","+","
+         
+        t_str = ","+","+","
+        m_str = str(next_mortality)+","+str(next_mortality_lower)+","+str(next_mortality_upper) + ","
+        c_str = str(serious)+","+str(serious_lower)+","+str(serious_upper)+ "\n"         
         
-        f.write(loc1_str+loc2_str+next_pred_date_str+n_str+r_str+d_str+m_str)
+        f.write(loc1_str+loc2_str+next_pred_date_str+n_str+r_str+d_str+t_str+m_str+c_str)
     
     print("baseline predictions writtern to:"+file_str)    
     f.close()
