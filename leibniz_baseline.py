@@ -59,9 +59,7 @@ print(file_str)
 next_pred_date = today+datetime.timedelta(days=num_days)
 f = open(file_str,"w+")
 
-f.write("Province/State, Country, prediction target date, N, low95N, high95N, R, low95R, high95R, D, low95D, high95D, T, low95T, high95T, M, low95M, high95M \n")
-
-
+f.write("Province/State,Country,Target/Date,N,low95N,high95N,R,low95R,high95R,D,low95D,high95D,T,low95T,high95T,M,low95M,high95M,C,low95C,high95C\n")
 
 cat2_idx = data['Province/State'].isnull()
 for tmp_location in set(data['Country/Region'][cat2_idx]):
