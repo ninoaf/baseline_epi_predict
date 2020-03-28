@@ -9,7 +9,7 @@ python leibniz_baseline.py
 
 2. Run Logistic growth baseline
 
-./wget_logistic_baseline.sh
+./run_logistic.sh
  
  
  
