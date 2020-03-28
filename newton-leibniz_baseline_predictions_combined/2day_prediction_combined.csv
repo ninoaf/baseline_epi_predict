@@ -1,4 +1,4 @@
-Date,Country,Province/State,N,low95N,high95N,R,low95R,high95R,D,low95D,high95D,T,low95T,high95T,M,low95M,high95M
+Date,Country,Province/State,N,low95N,high95N,R,low95R,high95R,D,low95D,high95D,T,low95T,high95T,M,low95M,high95M,C,low95C,high95C
 2020-03-06,Slovakia,,0.0,,,0.0,,,0.0,,,,,,,,,,,
 2020-03-06,Belarus,,16.0,,,0.0,,,0.0,,,,,,0.0,,,,,
 2020-03-06,Portugal,,11.0,,,0.0,,,0.0,,,,,,0.0,,,,,

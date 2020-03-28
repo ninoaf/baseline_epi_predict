@@ -6,7 +6,7 @@ import datetime
 from datetime import date
 
 f = open("newton-leibniz_baseline_predictions_combined/2day_prediction_combined.csv", "w+")
-f.write("Date,Country,Province/State,N,low95N,high95N,R,low95R,high95R,D,low95D,high95D,T,low95T,high95T,M,low95M,high95M\n")
+f.write("Date,Country,Province/State,N,low95N,high95N,R,low95R,high95R,D,low95D,high95D,T,low95T,high95T,M,low95M,high95M,C,low95C,high95C\n")
     
 start = datetime.datetime.strptime('2020-03-04', "%Y-%m-%d")
 end = datetime.datetime.strptime('2020-03-24', "%Y-%m-%d")
