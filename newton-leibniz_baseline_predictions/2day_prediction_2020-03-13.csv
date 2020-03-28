@@ -1,4 +1,4 @@
-Province/State, Country, Target/Date, N, low95N, high95N, R, low95R, high95R,    D, low95D, high95D, T, low95T, high95T, M, low95M, high95M 
+Province/State, Country, Target/Date, N, low95N, high95N, R, low95R, high95R,        D, low95D, high95D, T, low95T, high95T, M, low95M, high95M 
 ,Slovakia,2020-03-15,64.0,,,0.0,,,0.0,,,,,,0.0,,
 ,Belarus,2020-03-15,57.0,,,3.0,,,0.0,,,,,,0.0,,
 ,Portugal,2020-03-15,218.0,,,3.0,,,0.0,,,,,,0.0,,
