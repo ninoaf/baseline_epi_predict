@@ -45,7 +45,7 @@ recovered = pd.read_csv('time_series_covid19_recovered_global.csv')
 
 colnames = confirmed.columns.tolist()
 
-delta_arr = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30]
+delta_arr = [0]
 
 for delta in delta_arr:
     
@@ -53,10 +53,11 @@ for delta in delta_arr:
     end = datetime.datetime.strptime(colnames[-1], "%m/%d/%y")
     date_generated = [start + datetime.timedelta(days=x) for x in range(0, (end-start).days-delta)]
     
-    countries = ['Switzerland', 'Italy', 'Germany', 'US', 'France', 'Spain']
-    population = [8.57e6, 60.5e6, 82.8e6, 327.2e6, 66.99e6, 46.66e6]
+    countries = ['Switzerland', 'Italy', 'Germany', 'US', 'France', 'Spain', 'Netherlands', 'Poland', 'Portugal', 'United Kingdom', 'Croatia', 'Czechia', 'Austria', 'Belgium', 'Luxembourg']
+    population = [8.57e6, 60.5e6, 82.8e6, 327.2e6, 66.99e6, 46.66e6, 17.18e6, 37.98e6, 10.29e6, 66.44e6, 4076246, 10.65e6, 8.822e6, 11.4e6, 602005]
     
     herd_imm_ratio = 0.66
+    death_prob = 0.01
     # time delta for prediction in days
     prediction_delta = 7
     
@@ -94,14 +95,15 @@ for delta in delta_arr:
             conf_flag = 1
         
         try:
-            deaths_pred, deaths_pred_lower, deaths_pred_upper = pred_logistic(days, deaths_region, days_prediction, population[i]*herd_imm_ratio)
+            deaths_pred, deaths_pred_lower, deaths_pred_upper = pred_logistic(days, deaths_region, days_prediction, population[i]*herd_imm_ratio*death_prob)
         except:
             d_flag = 1
     
         try:        
-            recovered_pred, recovered_pred_lower, recovered_pred_upper = pred_logistic(days, recovered_region, days_prediction, population[i]*herd_imm_ratio)
+            recovered_pred, recovered_pred_lower, recovered_pred_upper = pred_logistic(days, recovered_region, days_prediction, population[i]*herd_imm_ratio*(1-death_prob))
         except:
             rec_flag = 1
+            
 #        fig, ax = plt.subplots()
 #        plt.title('%s'%countries[i])
 #        plt.plot(date_generated, confirmed_region, 'o', label = 'confirmed cases')
