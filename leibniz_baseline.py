@@ -6,6 +6,7 @@ from datetime import date
 import numbers
 import decimal
 import math
+import sys
 
 def pred_function(series, k=2):
     # Newton-Leibniz baseline
@@ -24,7 +25,6 @@ def pred_function(series, k=2):
 
 def mortality_estimate(data):
     # loop over countires and estimate ratio of predicted deaths and predicted confirmed cases
-    
     cat2_idx = data['Province/State'].isnull()
     moratlity_list=[]
     for tmp_location in set(data['Country/Region'][cat2_idx]):
