@@ -19,6 +19,6 @@ for date in date_generated:
     
     data = data.fillna("")
     for i in range(len(data['Country'])):
-        f.write(str(data['Target/Date'][i])+","+data['Country'][i]+","+","+str(data['N'][i])+","+str(data['low95N'][i])+","+str(data['high95N'][i])+","+str(data['R'][i])+","+str(data['low95R'][i])+","+str(data['high95R'][i])+","+str(data['D'][i])+","+str(data['low95D'][i])+","+str(data['high95D'][i])+","+str(data['T'][i])+","+str(data['low95T'][i])+","+str(data['high95T'][i])+","+str(data['M'][i])+","+str(data['low95M'][i])+","+str(data['high95M'][i])+","+str(data['C'][i])+","+str(data['low95C'][i])+","+str(data['high95C'][i])+"\n")    
+        f.write(str(data['Target/Date'][i])+","+data['Country'][i]+","+data['Province/State'][i]+","+str(data['N'][i])+","+str(data['low95N'][i])+","+str(data['high95N'][i])+","+str(data['R'][i])+","+str(data['low95R'][i])+","+str(data['high95R'][i])+","+str(data['D'][i])+","+str(data['low95D'][i])+","+str(data['high95D'][i])+","+str(data['T'][i])+","+str(data['low95T'][i])+","+str(data['high95T'][i])+","+str(data['M'][i])+","+str(data['low95M'][i])+","+str(data['high95M'][i])+","+str(data['C'][i])+","+str(data['low95C'][i])+","+str(data['high95C'][i])+"\n")    
 
 f.close()
