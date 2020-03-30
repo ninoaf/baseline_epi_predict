@@ -74,9 +74,14 @@ for delta in delta_arr:
     for i in range(len(countries)):
     
         confirmed_region = confirmed.loc[confirmed['Country/Region'] == countries[i]]
-        deaths_region = deaths.loc[deaths['Country/Region'] == countries[i]]
-        recovered_region = recovered.loc[recovered['Country/Region'] == countries[i]]
+        confirmed_region = confirmed_region.loc[confirmed_region['Province/State'].isnull()]
         
+        deaths_region = deaths.loc[deaths['Country/Region'] == countries[i]]
+        deaths_region = deaths_region.loc[deaths_region['Province/State'].isnull()]
+        
+        recovered_region = recovered.loc[recovered['Country/Region'] == countries[i]]
+        recovered_region = recovered_region.loc[recovered_region['Province/State'].isnull()]
+                
         confirmed_region = np.asarray([float(sum(confirmed_region[colnames[4+i]])) for i in range(len(date_generated))])
         deaths_region = np.asarray([float(sum(deaths_region[colnames[4+i]])) for i in range(len(date_generated))])
         recovered_region = np.asarray([float(sum(recovered_region[colnames[4+i]])) for i in range(len(date_generated))])
