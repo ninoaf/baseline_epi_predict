@@ -8,7 +8,7 @@ from datetime import date
 f = open("logistic_baseline_predictions_combined/2day_prediction_combined.csv", "w+")
 f.write("Date,Country,Province/State,N,low95N,high95N,R,low95R,high95R,D,low95D,high95D,T,low95T,high95T,M,low95M,high95M,C,low95C,high95C\n")
     
-start = datetime.datetime.strptime('2020-02-27', "%Y-%m-%d")
+start = datetime.datetime.strptime('2020-03-01', "%Y-%m-%d")
 end = datetime.date.today()-datetime.timedelta(days=1)
 
 date_generated = [start + datetime.timedelta(days=x) for x in range(0, (end-start.date()).days)]
@@ -26,7 +26,7 @@ f.close()
 f = open("logistic_baseline_predictions_combined/7day_prediction_combined.csv", "w+")
 f.write("Date,Country,Province/State,N,low95N,high95N,R,low95R,high95R,D,low95D,high95D,T,low95T,high95T,M,low95M,high95M,C,low95C,high95C\n")
     
-start = datetime.datetime.strptime('2020-02-27', "%Y-%m-%d")
+#start = datetime.datetime.strptime('2020-03-01', "%Y-%m-%d")
 end = datetime.date.today()-datetime.timedelta(days=1)
 
 date_generated = [start + datetime.timedelta(days=x) for x in range(0, (end-start.date()).days)]
@@ -44,7 +44,7 @@ f.close()
 f = open("logistic_baseline_predictions_combined/30day_prediction_combined.csv", "w+")
 f.write("Date,Country,Province/State,N,low95N,high95N,R,low95R,high95R,D,low95D,high95D,T,low95T,high95T,M,low95M,high95M,C,low95C,high95C\n")
 
-start = datetime.datetime.strptime('2020-02-27', "%Y-%m-%d")
+#start = datetime.datetime.strptime('2020-02-27', "%Y-%m-%d")
 end = datetime.date.today()-datetime.timedelta(days=1)
 
 date_generated = [start + datetime.timedelta(days=x) for x in range(0, (end-start.date()).days)]
