@@ -127,6 +127,14 @@ for idx in range(0,confirmed.shape[0]):
         print("Unexpected error:", sys.exc_info()[0])
 
 f.close()
-print("Finished Leibniz baseline.")
+print("Finished Leibniz baseline!")
+print("Written to "+ "newton-leibniz_baseline_predictions/"+file_str)
 
+
+try:
+    os.system("python files_combine_leibniz.py")
+except:
+    print("Could not write predictions in combined format")
+    print("Unexpected error:", sys.exc_info()[0])
+    
 
