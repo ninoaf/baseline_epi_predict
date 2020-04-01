@@ -51,7 +51,7 @@ for delta in delta_arr:
     
     start = datetime.datetime.strptime(colnames[4], "%m/%d/%y")
     end = datetime.datetime.strptime(colnames[-1], "%m/%d/%y")
-    date_generated = [start + datetime.timedelta(days=x) for x in range(0, (end-start).days-delta)]
+    date_generated = [start + datetime.timedelta(days=x) for x in range(0, (end-start).days-delta+1)]
     
     countries = ['Switzerland', 'Italy', 'Germany', 'US', 'France', 'Spain', 'Netherlands', 'Poland', 'Portugal', 'United Kingdom', 'Croatia', 'Czechia', 'Austria', 'Belgium', 'Luxembourg']
     population = [8.57e6, 60.5e6, 82.8e6, 327.2e6, 66.99e6, 46.66e6, 17.18e6, 37.98e6, 10.29e6, 66.44e6, 4076246, 10.65e6, 8.822e6, 11.4e6, 602005]
@@ -74,16 +74,21 @@ for delta in delta_arr:
     for i in range(len(countries)):
     
         confirmed_region = confirmed.loc[confirmed['Country/Region'] == countries[i]]
-        deaths_region = deaths.loc[deaths['Country/Region'] == countries[i]]
-        recovered_region = recovered.loc[recovered['Country/Region'] == countries[i]]
+        confirmed_region = confirmed_region.loc[confirmed_region['Province/State'].isnull()]
         
+        deaths_region = deaths.loc[deaths['Country/Region'] == countries[i]]
+        deaths_region = deaths_region.loc[deaths_region['Province/State'].isnull()]
+        
+        recovered_region = recovered.loc[recovered['Country/Region'] == countries[i]]
+        recovered_region = recovered_region.loc[recovered_region['Province/State'].isnull()]
+                
         confirmed_region = np.asarray([float(sum(confirmed_region[colnames[4+i]])) for i in range(len(date_generated))])
         deaths_region = np.asarray([float(sum(deaths_region[colnames[4+i]])) for i in range(len(date_generated))])
         recovered_region = np.asarray([float(sum(recovered_region[colnames[4+i]])) for i in range(len(date_generated))])
         days = np.linspace(0, len(date_generated)-1, len(date_generated))
         
         days_prediction = np.linspace(0, len(date_generated)-1+prediction_delta, len(date_generated)+prediction_delta)
-        dates_prediction = [start + datetime.timedelta(days=x) for x in range(0, (end-start).days+prediction_delta)]
+        dates_prediction = [start + datetime.timedelta(days=x) for x in range(0, (end-start).days-delta+prediction_delta+1)]
     
         conf_flag = 0
         d_flag = 0

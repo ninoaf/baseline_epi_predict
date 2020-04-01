@@ -1,11 +1,11 @@
 Baseline epidemic models
 
+Check requirements for pip (requirements.txt).
+Check environment file from conda (environment.yml).
 
 1. Run Newton-Leibniz baseline
 
-get the latest data update, see https://github.com/datasets/covid-19
-then
-python leibniz_baseline.py 
+python leibniz_baseline_automatic.py
 
 2. Run Logistic growth baseline
 
