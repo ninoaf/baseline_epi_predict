@@ -7,7 +7,6 @@ dependencies:
   - attrs=19.3.0=py_0
   - backcall=0.1.0=py37_0
   - blas=1.0=mkl
-  - bleach=3.1.0=py37_0
   - ca-certificates=2020.1.1=0
   - certifi=2019.11.28=py37_1
   - cycler=0.10.0=py37_0
@@ -108,6 +107,7 @@ dependencies:
     - awesome-slugify==1.6.5
     - bitarray==1.2.1
     - bitstring==3.1.6
+    - bleach==3.1.4
     - blessings==1.7
     - boto3==1.12.18
     - botocore==1.15.18
