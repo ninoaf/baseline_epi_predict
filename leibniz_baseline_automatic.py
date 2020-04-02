@@ -7,7 +7,7 @@ import decimal
 import sys
 import os
 import datetime
-
+from datetime import date
 
 def pred_function(series, k=1):
     # Newton-Leibniz baseline -- local prediction by derivative
@@ -54,10 +54,11 @@ end = datetime.datetime.strptime(colnames[-1], "%m/%d/%y")
 date_generated = [start + datetime.timedelta(days=x) for x in range(0, (end-start).days+1)]
 
 
-last_date = date_generated[-1]
-last_date_str = last_date.strftime("%Y-%m-%d")
-next_pred_date = last_date+datetime.timedelta(days=num_day_pred)
-file_str = str(num_day_pred)+"day_prediction_" + last_date_str + ".csv"
+#last_date = date_generated[-1]
+#last_date_str = last_date.strftime("%Y-%m-%d")
+#next_pred_date = last_date+datetime.timedelta(days=num_day_pred)
+next_pred_date = date.today()+datetime.timedelta(days=num_day_pred)
+file_str = str(num_day_pred)+"day_prediction_" + str(date.today()) + ".csv"
 print(file_str)
 
 print("Number of locations:")

@@ -20,7 +20,8 @@ if len(sys.argv)>1:
 else:
     print("No arguments given, assuming previous day is the end date")
     start = datetime.datetime.strptime('2020-01-22', "%Y-%m-%d")
-    end = datetime.date.today()-datetime.timedelta(days=1)
+    end = datetime.date.today()+datetime.timedelta(days=1)
+    #end = datetime.date.today()
     print(start.strftime("%Y-%m-%d")+"  "+end.strftime("%Y-%m-%d"))
     date_generated = [start + datetime.timedelta(days=x) for x in range(0, (end-start.date()).days)]
     
